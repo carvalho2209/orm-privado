@@ -1,0 +1,10 @@
+﻿<SkinItems version="1.0" application="SkinEditor" assembly="SapDesign" class="" extranamespace="">
+  <Item>
+    <ItemName>Signature Design</ItemName>
+    <TemplateName>Blue</TemplateName>
+  </Item>
+  <Item>
+    <ItemName>Golden Thread</ItemName>
+    <TemplateName>Signature Design</TemplateName>
+  </Item>
+</SkinItems>

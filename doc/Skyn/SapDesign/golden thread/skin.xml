@@ -1,0 +1,2912 @@
+<Skins>
+  <Skin1 SkinProduct="NavBar" SkinName="Golden Thread">
+    <Properties>
+      <GroupInterval Value="4" ValueType="System.Int32" />
+      <ShowButtonInFooter Value="False" ValueType="System.Boolean" />
+      <ShowFooter Value="False" ValueType="System.Boolean" />
+    </Properties>
+    <Elements>
+      <Background>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Color BackColor="64,64,64" />
+      </Background>
+      <GroupClient>
+        <ContentMargins Bottom="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navbar\groupclient.png">
+          <SizingMargins Bottom="3" Top="1" Left="3" Right="3" />
+        </Image>
+        <Color BackColor="$Control" />
+      </GroupClient>
+      <GroupClientLinksStrip>
+        <ContentMargins Left="6" Right="6" />
+        <Border>
+          <BorderThin Left="2" />
+        </Border>
+      </GroupClientLinksStrip>
+      <GroupCloseButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="navbar\groupclosebutton.png" />
+      </GroupCloseButton>
+      <GroupFooter>
+        <ContentMargins Bottom="-1" Top="3" />
+        <Size MinSize="Width=10,Height=26" />
+      </GroupFooter>
+      <GroupHeader>
+        <ContentMargins Top="1" Left="7" Right="4" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navbar\groupheader.png">
+          <SizingMargins Bottom="2" Top="7" Left="6" Right="6" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+        <Size MinSize="Width=30,Height=10" />
+      </GroupHeader>
+      <GroupOpenButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="navbar\groupopenbutton.png" />
+      </GroupOpenButton>
+      <Item>
+        <Color ForeColor="$ControlText" />
+      </Item>
+      <ScrollDownButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="navbar\scrolldownbutton.png">
+          <SizingMargins Bottom="7" Top="1" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="navbar\scrolldownbutton_glyph.png" />
+      </ScrollDownButton>
+      <ScrollUpButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="navbar\scrollupbutton.png">
+          <SizingMargins Bottom="1" Top="7" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="navbar\scrollupbutton_glyph.png" />
+      </ScrollUpButton>
+    </Elements>
+  </Skin1>
+  <Skin2 SkinProduct="Common" SkinName="Golden Thread">
+    <Colors>
+      <Control Value="247,247,247" />
+      <ControlText Value="Black" />
+      <DisabledControl Value="231,231,231" />
+      <DisabledText Value="Gray" />
+      <HideSelection Value="252,221,130" />
+      <Highlight Value="252,221,130" />
+      <HighlightText Value="$WindowText" />
+      <Info Value="255,255,225" />
+      <InfoText Value="Black" />
+      <Menu Value="White" />
+      <MenuText Value="Black" />
+      <ReadOnly Value="231,231,231" />
+      <Window Value="White" />
+      <WindowText Value="Black" />
+    </Colors>
+    <Elements>
+      <BackButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="common\backbutton.png" />
+        <Offset Kind="Default" Offset="X=9,Y=0" />
+      </BackButton>
+      <Button>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="common\button.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Properties>
+          <DisabledText Value="$DisabledText" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color GradientMode="Vertical" SolidImageCenterGradientMode="Vertical" BackColor="Transparent" BackColor2="Transparent" ForeColor="$ControlText" />
+        <Size MinSize="Width=16,Height=20" />
+      </Button>
+      <DropArrows />
+      <DropDownButton1>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="common\dropdownbutton1.png">
+          <SizingMargins Bottom="3" Top="11" Left="5" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </DropDownButton1>
+      <DropDownButton2>
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="common\dropdownbutton2.png">
+          <SizingMargins Bottom="3" Top="11" Left="2" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="common\dropdownbutton2_glyph.png" />
+      </DropDownButton2>
+      <Form>
+        <Color BackColor="247,247,247" BackColor2="247,247,247" ForeColor="Black" />
+      </Form>
+      <GroupExpandButton>
+        <Image ImageCount="6" Layout="Vertical" Stretch="NoResize" ImageName="common\groupexpandbutton.png" />
+      </GroupExpandButton>
+      <GroupPanel>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanel.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Color BackColor="$Control" BackColor2="$Control" />
+      </GroupPanel>
+      <GroupPanelBottom>
+        <ContentMargins Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelbottom.png">
+          <SizingMargins Bottom="1" Top="2" Left="2" Right="2" />
+        </Image>
+        <Color BackColor="$Control" />
+      </GroupPanelBottom>
+      <GroupPanelCaptionBottom>
+        <ContentMargins Bottom="3" Top="4" Left="8" Right="8" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelcaptionbottom.png">
+          <SizingMargins Bottom="2" Top="1" Left="2" Right="2" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupPanelCaptionBottom>
+      <GroupPanelCaptionLeft>
+        <ContentMargins Bottom="3" Top="4" Left="8" Right="8" />
+        <Image ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelcaptionleft.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupPanelCaptionLeft>
+      <GroupPanelCaptionRight>
+        <ContentMargins Bottom="3" Top="4" Left="8" Right="8" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelcaptionright.png">
+          <SizingMargins Bottom="2" Top="2" Left="1" Right="2" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupPanelCaptionRight>
+      <GroupPanelCaptionTop>
+        <ContentMargins Bottom="3" Top="4" Left="8" Right="8" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="common\grouppanelcaptiontop.png">
+          <SizingMargins Bottom="1" Top="2" Left="2" Right="2" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupPanelCaptionTop>
+      <GroupPanelLeft>
+        <ContentMargins Bottom="1" Top="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelleft.png">
+          <SizingMargins Bottom="2" Top="2" Left="1" Right="2" />
+        </Image>
+        <Color BackColor="$Control" />
+      </GroupPanelLeft>
+      <GroupPanelNoBorder>
+        <Color BackColor="$Control" ForeColor="Black" />
+      </GroupPanelNoBorder>
+      <GroupPanelRight>
+        <ContentMargins Bottom="1" Top="1" Left="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppanelright.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="1" />
+        </Image>
+        <Color BackColor="$Control" />
+      </GroupPanelRight>
+      <GroupPanelTop>
+        <ContentMargins Bottom="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\grouppaneltop.png">
+          <SizingMargins Bottom="2" Top="1" Left="2" Right="2" />
+        </Image>
+        <Color BackColor="$Control" />
+      </GroupPanelTop>
+      <HighlightedItem>
+        <ContentMargins Left="4" Right="4" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="common\highlighteditem.png">
+          <SizingMargins Bottom="3" Top="8" Left="3" Right="3" />
+        </Image>
+      </HighlightedItem>
+      <Label>
+        <Color ForeColor="Black" />
+      </Label>
+      <LabelLine>
+        <Border Top="190,208,232" Bottom="White">
+          <BorderThin Bottom="1" Top="1" />
+        </Border>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=1,Height=2" />
+      </LabelLine>
+      <LabelLineVert>
+        <Border Left="190,208,232" Right="White">
+          <BorderThin Left="1" Right="1" />
+        </Border>
+        <Size MinSize="Width=2,Height=1" />
+      </LabelLineVert>
+      <LayoutGroupPadding>
+        <ContentMargins Bottom="9" Top="9" Left="9" Right="9" />
+      </LayoutGroupPadding>
+      <LayoutGroupSpacing>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+      </LayoutGroupSpacing>
+      <LayoutGroupWithoutBordersPadding>
+        <ContentMargins Bottom="10" Top="10" Left="10" Right="10" />
+      </LayoutGroupWithoutBordersPadding>
+      <LayoutGroupWithoutBordersSpacing>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+      </LayoutGroupWithoutBordersSpacing>
+      <LayoutItemBackground>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="common\layoutitembackground.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Properties>
+          <Spacing Value="0" ValueType="System.Int32" />
+        </Properties>
+      </LayoutItemBackground>
+      <LayoutItemPadding>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+      </LayoutItemPadding>
+      <LayoutItemSpacing />
+      <LayoutItemTextToControlDistance>
+        <ContentMargins Bottom="3" Top="3" Left="4" Right="4" />
+      </LayoutItemTextToControlDistance>
+      <LayoutRootGroupPadding>
+        <ContentMargins Bottom="9" Top="9" Left="9" Right="9" />
+      </LayoutRootGroupPadding>
+      <LayoutRootGroupSpacing />
+      <LayoutRootGroupWithoutBordersPadding>
+        <ContentMargins Bottom="10" Top="10" Left="10" Right="10" />
+      </LayoutRootGroupWithoutBordersPadding>
+      <LayoutRootGroupWithoutBordersSpacing />
+      <LayoutTabbedGroupPadding>
+        <ContentMargins Bottom="8" Top="8" Left="8" Right="8" />
+      </LayoutTabbedGroupPadding>
+      <LayoutTabbedGroupSpacing>
+        <ContentMargins Bottom="-1" Top="2" Left="2" Right="-1" />
+      </LayoutTabbedGroupSpacing>
+      <LoadingBig>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\loadingbig.png" />
+      </LoadingBig>
+      <ScrollButton>
+        <Image ImageCount="16" Layout="Vertical" Stretch="Stretch" ImageName="common\scrollbutton.png">
+          <SizingMargins Bottom="2" Top="8" Left="8" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="16" Layout="Vertical" ImageName="common\scrollbutton_glyph.png" />
+      </ScrollButton>
+      <ScrollShaft>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="common\scrollshaft.png">
+          <SizingMargins Bottom="3" Top="3" />
+        </Image>
+      </ScrollShaft>
+      <ScrollShaftVert>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="common\scrollshaftvert.png">
+          <SizingMargins Left="3" Right="3" />
+        </Image>
+      </ScrollShaftVert>
+      <ScrollThumbButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="common\scrollthumbbutton.png">
+          <SizingMargins Bottom="2" Top="8" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="common\scrollthumbbutton_glyph.png" />
+      </ScrollThumbButton>
+      <ScrollThumbButtonVert>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="common\scrollthumbbuttonvert.png">
+          <SizingMargins Bottom="2" Top="2" Left="8" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="common\scrollthumbbuttonvert_glyph.png" />
+      </ScrollThumbButtonVert>
+      <Selection>
+        <Border Left="100,128,128,128" Right="100,128,128,128" Top="100,128,128,128" Bottom="100,128,128,128">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Properties>
+          <SelectionOpacity Value="100" ValueType="System.Int32" />
+        </Properties>
+        <Color BackColor="100,225,225,225" />
+      </Selection>
+      <SizeGrip>
+        <Image ImageCount="1" Layout="Vertical" Stretch="NoResize" ImageName="common\sizegrip.png" />
+        <Size MinSize="Width=16,Height=16" />
+      </SizeGrip>
+      <Splitter>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Tile" ImageName="common\splitter.png">
+          <SizingMargins Bottom="3" Top="3" Left="2" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="6" Layout="Horizontal" ImageName="common\splitter_glyph.png" />
+        <Color BackColor="White" />
+        <Size MinSize="Width=6,Height=0" />
+      </Splitter>
+      <SplitterHorz>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="common\splitterhorz.png">
+          <SizingMargins Bottom="3" Top="2" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="6" Layout="Vertical" ImageName="common\splitterhorz_glyph.png" />
+        <Color BackColor="White" />
+        <Size MinSize="Width=0,Height=6" />
+      </SplitterHorz>
+      <TextBorder>
+        <Border Left="213,218,223" Right="213,218,223" Top="213,218,223" Bottom="213,218,223">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+      </TextBorder>
+      <ToolTipItem>
+        <Color BackColor="Transparent" />
+      </ToolTipItem>
+      <ToolTipSeparator>
+        <ContentMargins Bottom="4" Top="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\tooltipseparator.png" />
+        <Border Top="Gray" Bottom="White" />
+        <Size MinSize="Width=1,Height=10" />
+      </ToolTipSeparator>
+      <ToolTipTitleItem />
+      <ToolTipWindow>
+        <ContentMargins Bottom="4" Top="5" Left="6" Right="6" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="common\tooltipwindow.png">
+          <SizingMargins Bottom="4" Top="4" Left="4" Right="4" />
+        </Image>
+        <Border Left="Gray" Right="Gray" Top="Gray" Bottom="Gray" />
+        <Properties>
+          <CornerRadius Value="3" ValueType="System.Int32" />
+        </Properties>
+      </ToolTipWindow>
+    </Elements>
+  </Skin2>
+  <Skin3 SkinProduct="Editors" SkinName="Golden Thread">
+    <Properties>
+      <ZoomButtonIndent Value="-1" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <CalcEditDigitTextColor Value="31,71,163" />
+      <CalcEditOperationTextColor Value="131,11,40" />
+      <CalendarHolidayCellColor Value="191,11,11" />
+      <CalendarInactiveCellColor Value="LightGray" />
+      <CalendarNormalCellColor Value="$ControlText" />
+      <CalendarSelectedCellColor Value="$ControlText" />
+      <CalendarTodayCellColor Value="$ControlText" />
+      <FilterControlEmptyValueTextColor Value="$DisabledText" />
+      <FilterControlFieldNameTextColor Value="31,71,163" />
+      <FilterControlGroupOperatorTextColor Value="191,11,11" />
+      <FilterControlOperatorTextColor Value="28,119,7" />
+      <FilterControlValueTextColor Value="$ControlText" />
+      <HyperLinkTextColor Value="31,71,163" />
+      <ProgressBarEmptyTextColor Value="$ControlText" />
+      <ProgressBarFilledTextColor Value="Black" />
+    </Colors>
+    <Elements>
+      <CalendarNavigationButton>
+        <ContentMargins Bottom="2" Top="2" Left="3" Right="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\calendarnavigationbutton.png">
+          <SizingMargins Bottom="3" Top="9" Left="5" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="8" Layout="Vertical" ImageName="editors\calendarnavigationbutton_glyph.png" />
+        <Properties>
+          <DisabledText Value="$DisabledText" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="86,86,86" />
+        <Size MinSize="Width=13,Height=17" />
+      </CalendarNavigationButton>
+      <CheckBox>
+        <Image ImageCount="12" Layout="Vertical" Stretch="NoResize" ImageName="editors\checkbox.png" />
+      </CheckBox>
+      <ClockFace>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="editors\clockface.png" />
+        <Color ForeColor="86,86,86" />
+      </ClockFace>
+      <ClockGlass>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="editors\clockglass.png" />
+      </ClockGlass>
+      <CloseButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\closebutton.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\closebutton_glyph.png" />
+        <Color ForeColor="86,86,86" />
+        <Size MinSize="Width=13,Height=17" />
+      </CloseButton>
+      <ComboButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\combobutton.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\combobutton_glyph.png" />
+        <Color ForeColor="65,115,183" />
+        <Size MinSize="Width=13,Height=17" />
+      </ComboButton>
+      <EditorButton>
+        <ContentMargins Bottom="2" Top="2" Left="3" Right="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\editorbutton.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <DisabledText Value="$DisabledText" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=13,Height=17" />
+      </EditorButton>
+      <Navigator>
+        <Image ImageCount="19" Layout="Horizontal" Stretch="NoResize" ImageName="editors\navigator.png" />
+      </Navigator>
+      <NavigatorButton>
+        <ContentMargins Bottom="3" Top="3" Left="2" Right="2" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\navigatorbutton.png">
+          <SizingMargins Bottom="1" Top="9" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <DisabledText Value="$DisabledText" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="70,70,70" />
+      </NavigatorButton>
+      <PopupFormBorder>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Border Left="83,83,83" Right="83,83,83" Top="83,83,83" Bottom="83,83,83">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="$Control" ForeColor="Black" />
+        <Size MinSize="Width=0,Height=0" />
+      </PopupFormBorder>
+      <ProgressBorder>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\progressborder.png">
+          <SizingMargins Bottom="2" Top="7" Left="4" Right="4" />
+        </Image>
+        <Color BackColor="224,224,224" />
+      </ProgressBorder>
+      <ProgressBorderVert>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\progressbordervert.png">
+          <SizingMargins Bottom="3" Top="3" Left="7" Right="2" />
+        </Image>
+        <Color BackColor="224,224,224" />
+      </ProgressBorderVert>
+      <ProgressChunk>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\progresschunk.png">
+          <SizingMargins Bottom="2" Top="7" Left="3" Right="2" />
+        </Image>
+        <Size MinSize="Width=6,Height=12" />
+      </ProgressChunk>
+      <ProgressChunkVert>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\progresschunkvert.png">
+          <SizingMargins Bottom="3" Top="2" Left="7" Right="2" />
+        </Image>
+        <Size MinSize="Width=12,Height=4" />
+      </ProgressChunkVert>
+      <RadioButton>
+        <Image ImageCount="8" Layout="Vertical" Stretch="NoResize" ImageName="editors\radiobutton.png" />
+      </RadioButton>
+      <RangeControlBorder>
+        <Border Left="157,160,170" Right="157,160,170" Top="157,160,170" Bottom="157,160,170">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Properties>
+          <BackColor Value="$Window" ValueType="System.Drawing.Color" />
+          <BorderColor Value="182,184,191" ValueType="System.Drawing.Color" />
+          <DefaultElementColor Value="174,174,186" ValueType="System.Drawing.Color" />
+          <ElementBaseColor Value="154,154,166" ValueType="System.Drawing.Color" />
+          <ElementFontSize Value="26" ValueType="System.Int32" />
+          <ElementForeColor Value="221,222,225" ValueType="System.Drawing.Color" />
+          <LabelColor Value="174,174,186" ValueType="System.Drawing.Color" />
+          <OutOfRangeColorMask Value="30,157,160,170" ValueType="System.Drawing.Color" />
+          <RangePreviewColor Value="$Window" ValueType="System.Drawing.Color" />
+          <RuleColor Value="20,0,0,0" ValueType="System.Drawing.Color" />
+          <ScrollAreaColor Value="221,222,225" ValueType="System.Drawing.Color" />
+          <ScrollAreaHeight Value="11" ValueType="System.Int32" />
+          <ViewPortPreviewColor Value="240,241,242" ValueType="System.Drawing.Color" />
+        </Properties>
+      </RangeControlBorder>
+      <RangeControlLeftThumb>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangecontrolleftthumb.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="editors\rangecontrolleftthumb_glyph.png" />
+        <Offset Kind="Default" Offset="X=-5,Y=0" />
+        <Size MinSize="Width=11,Height=19" AllowVGrow="False" />
+      </RangeControlLeftThumb>
+      <RangeControlRightThumb>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangecontrolrightthumb.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="editors\rangecontrolrightthumb_glyph.png" />
+        <Offset Kind="Default" Offset="X=-5,Y=0" />
+        <Size MinSize="Width=11,Height=19" AllowVGrow="False" />
+      </RangeControlRightThumb>
+      <RangeControlRulerHeader>
+        <ContentMargins Bottom="3" Top="2" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangecontrolrulerheader.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Properties>
+          <BaseColor Value="241,241,242" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor2="Lime" ForeColor="$DisabledText" />
+      </RangeControlRulerHeader>
+      <RangeControlSizingGlyph>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="NoResize" ImageName="editors\rangecontrolsizingglyph.png" />
+        <Size MinSize="Width=5,Height=9" />
+      </RangeControlSizingGlyph>
+      <RangeTrackBarLeftThumb>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangetrackbarleftthumb.png">
+          <SizingMargins Bottom="6" Top="9" Left="1" Right="1" />
+        </Image>
+        <Offset Kind="Default" Offset="X=0,Y=7" />
+      </RangeTrackBarLeftThumb>
+      <RangeTrackBarRightThumb>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangetrackbarrightthumb.png">
+          <SizingMargins Bottom="7" Top="9" Left="1" Right="1" />
+        </Image>
+      </RangeTrackBarRightThumb>
+      <RangeTrackBarThumbBoth>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="editors\rangetrackbarthumbboth.png">
+          <SizingMargins Bottom="3" Top="9" Left="3" Right="3" />
+        </Image>
+        <Offset Kind="Default" Offset="X=0,Y=8" />
+        <Size MinSize="Width=6,Height=10" />
+      </RangeTrackBarThumbBoth>
+      <SliderLeftArrow>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="editors\sliderleftarrow.png" />
+        <Size MinSize="Width=32,Height=32" />
+      </SliderLeftArrow>
+      <SliderRightArrow>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="editors\sliderrightarrow.png" />
+        <Size MinSize="Width=32,Height=32" />
+      </SliderRightArrow>
+      <SpinDown>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spindown.png">
+          <SizingMargins Bottom="1" Top="3" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spindown_glyph.png" />
+        <Size MinSize="Width=13,Height=9" />
+      </SpinDown>
+      <SpinLeft>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinleft.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spinleft_glyph.png" />
+        <Size MinSize="Width=13,Height=17" />
+      </SpinLeft>
+      <SpinRight>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinright.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spinright_glyph.png" />
+        <Size MinSize="Width=13,Height=17" />
+      </SpinRight>
+      <SpinUp>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinup.png">
+          <SizingMargins Bottom="1" Top="3" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spinup_glyph.png" />
+        <Size MinSize="Width=13,Height=10" />
+      </SpinUp>
+      <TileItemChecked>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="editors\tileitemchecked.png">
+          <SizingMargins Top="45" Right="45" />
+        </Image>
+      </TileItemChecked>
+      <TileItemSelected>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="editors\tileitemselected.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <Indent Value="2" ValueType="System.Int32" />
+        </Properties>
+      </TileItemSelected>
+      <TrackBarThumb>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="editors\trackbarthumb.png">
+          <SizingMargins Bottom="5" Top="9" Left="5" Right="5" />
+        </Image>
+        <Offset Kind="Default" Offset="X=5,Y=7" />
+      </TrackBarThumb>
+      <TrackBarThumbBoth>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="editors\trackbarthumbboth.png">
+          <SizingMargins Bottom="4" Top="9" Left="3" Right="3" />
+        </Image>
+        <Offset Kind="Default" Offset="X=5,Y=8" />
+      </TrackBarThumbBoth>
+      <TrackBarTickLine>
+        <Color ForeColor="112,152,204" />
+      </TrackBarTickLine>
+      <TrackBarTrack>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\trackbartrack.png">
+          <SizingMargins Bottom="2" Top="3" Left="6" Right="6" />
+        </Image>
+        <Size MinSize="Width=10,Height=2" />
+      </TrackBarTrack>
+      <ZoomTrackBarMiddleLine>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="editors\zoomtrackbarmiddleline.png" />
+      </ZoomTrackBarMiddleLine>
+      <ZoomTrackBarZoomInButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\zoomtrackbarzoominbutton.png" />
+      </ZoomTrackBarZoomInButton>
+      <ZoomTrackBarZoomOutButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\zoomtrackbarzoomoutbutton.png" />
+      </ZoomTrackBarZoomOutButton>
+    </Elements>
+  </Skin3>
+  <Skin4 SkinProduct="Tab" SkinName="Golden Thread">
+    <Properties>
+      <BottomContentIndent Value="3" ValueType="System.Int32" />
+      <HeaderDownGrow Value="0" ValueType="System.Int32" />
+      <HeaderDownGrowBottomRight Value="3" ValueType="System.Int32" />
+      <LeftContentIndent Value="-1" ValueType="System.Int32" />
+      <RightContentIndent Value="-1" ValueType="System.Int32" />
+      <RowIndentFar Value="2" ValueType="System.Int32" />
+      <RowIndentNear Value="1" ValueType="System.Int32" />
+      <SelectedHeaderDownGrow Value="1" ValueType="System.Int32" />
+      <SelectedHeaderDownGrowBottomRight Value="0" ValueType="System.Int32" />
+      <SelectedHeaderHGrow Value="0" ValueType="System.Int32" />
+      <SelectedHeaderUpGrow Value="1" ValueType="System.Int32" />
+      <UpperHeaderDownGrow Value="21" ValueType="System.Int32" />
+      <UpperHeaderDownGrowBottomRight Value="24" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <TabHeaderTextColor Value="Black" />
+      <TabHeaderTextColorActive Value="$ControlText" />
+      <TabHeaderTextColorDisabled Value="$DisabledText" />
+      <TabHeaderTextColorHot Value="Black" />
+    </Colors>
+    <Elements>
+      <TabHeader>
+        <ContentMargins Bottom="5" Top="5" Left="10" Right="9" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="tab\tabheader.png">
+          <SizingMargins Bottom="1" Top="2" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="247,247,247" BackColor2="247,247,247" ForeColor="$ControlText" SolidImageCenterColor="247,247,247" SolidImageCenterColor2="247,247,247" />
+      </TabHeader>
+      <TabHeaderButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="tab\tabheaderbutton.png">
+          <SizingMargins Bottom="5" Top="9" Left="5" Right="5" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="20" Layout="Vertical" ImageName="tab\tabheaderbutton_glyph.png" />
+        <Size MinSize="Width=19,Height=17" />
+      </TabHeaderButton>
+      <TabHeaderLine>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Size MinSize="Width=10,Height=1" />
+      </TabHeaderLine>
+      <TabPageButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="tab\tabpagebutton.png">
+          <SizingMargins Bottom="4" Top="9" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="tab\tabpagebutton_glyph.png" />
+        <Offset Kind="Default" Offset="X=4,Y=0" />
+        <Size MinSize="Width=15,Height=14" />
+      </TabPageButton>
+      <TabPane>
+        <ContentMargins Bottom="5" Top="2" Left="2" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="tab\tabpane.png">
+          <SizingMargins Bottom="4" Top="1" Left="1" Right="4" />
+        </Image>
+        <Color BackColor="247,247,247" ForeColor="Black" SolidImageCenterColor="247,247,247" />
+      </TabPane>
+    </Elements>
+  </Skin4>
+  <Skin5 SkinProduct="Grid" SkinName="Golden Thread">
+    <Properties>
+      <HeaderRequireHorzOffset Value="True" ValueType="System.Boolean" />
+      <HeaderRequireVertOffset Value="True" ValueType="System.Boolean" />
+    </Properties>
+    <Elements>
+      <Border>
+        <Border Left="$Control" Right="$Control" Top="$Control" Bottom="$Control">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Properties>
+          <Indent Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="171,171,171" />
+      </Border>
+      <Card>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\card.png">
+          <SizingMargins Bottom="2" Top="1" Left="2" Right="2" />
+        </Image>
+        <Border Left="$Control" Right="$Control" Top="$Control" Bottom="$Control" />
+        <Color ForeColor="$ControlText" />
+      </Card>
+      <CardCaption>
+        <ContentMargins Bottom="3" Top="3" Left="17" Right="-6" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\cardcaption.png">
+          <SizingMargins Bottom="1" Top="4" Left="4" Right="4" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </CardCaption>
+      <CardCaptionSelected>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\cardcaptionselected.png">
+          <SizingMargins Bottom="1" Top="4" Left="4" Right="4" />
+        </Image>
+        <Color ForeColor="White" />
+      </CardCaptionSelected>
+      <CardCloseButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="grid\cardclosebutton.png" />
+      </CardCloseButton>
+      <CardEmptyArea>
+        <Color BackColor="White" ForeColor="Black" />
+      </CardEmptyArea>
+      <CardOpenButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="grid\cardopenbutton.png" />
+      </CardOpenButton>
+      <CardSelected>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\cardselected.png">
+          <SizingMargins Bottom="2" Top="1" Left="2" Right="2" />
+        </Image>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171" />
+        <Color ForeColor="Black" />
+      </CardSelected>
+      <CardSeparator>
+        <Color BackColor="$Control" />
+      </CardSeparator>
+      <FieldHeaderButton>
+        <Glyph Stretch="NoResize" ImageCount="16" Layout="Vertical" ImageName="grid\fieldheaderbutton_glyph.png" />
+      </FieldHeaderButton>
+      <FilterButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="grid\filterButton.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Size MinSize="Width=15,Height=17" />
+      </FilterButton>
+      <FilterButtonActive>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="grid\filterButtonActive.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+      </FilterButtonActive>
+      <FooterCell>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\footerCell.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="Black" />
+      </FooterCell>
+      <FooterPanel>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\footerpanel.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </FooterPanel>
+      <GridEmptyArea>
+        <Color BackColor="White" ForeColor="Black" />
+      </GridEmptyArea>
+      <GridEvenRow>
+        <Color GradientMode="Vertical" BackColor="LightGray" />
+      </GridEvenRow>
+      <GridFilterPanel>
+        <ContentMargins Top="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\gridfilterpanel.png" />
+        <Color BackColor="$Control" ForeColor="$ControlText" />
+      </GridFilterPanel>
+      <GridFixedLine>
+        <Color BackColor="$Control" ForeColor="Black" />
+      </GridFixedLine>
+      <GridGroupPanel>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="grid\gridgrouppanel.png">
+          <SizingMargins Left="368" />
+        </Image>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171" />
+        <Color BackColor2="171,171,171" />
+      </GridGroupPanel>
+      <GridLine>
+        <Color BackColor="171,171,171" ForeColor="Black" />
+      </GridLine>
+      <GridOddRow>
+        <Color GradientMode="Vertical" BackColor="244,249,255" />
+      </GridOddRow>
+      <GridPreview>
+        <Color BackColor="$Control" ForeColor="$ControlText" />
+      </GridPreview>
+      <GridRow>
+        <Color BackColor="White" ForeColor="Black" />
+      </GridRow>
+      <GridSpecialRowIndent>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="$Control" />
+        <Size MinSize="Width=10,Height=4" />
+      </GridSpecialRowIndent>
+      <GroupRow>
+        <Color BackColor="171,171,171" ForeColor="$ControlText" />
+      </GroupRow>
+      <Header>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="grid\header.png">
+          <SizingMargins Bottom="1" Top="5" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Header>
+      <HeaderLeft>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="grid\headerLeft.png">
+          <SizingMargins Bottom="1" Top="5" Left="5" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </HeaderLeft>
+      <HeaderRight>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="grid\headerRight.png">
+          <SizingMargins Bottom="1" Top="5" Left="1" Right="5" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </HeaderRight>
+      <HeaderSpecial>
+        <ContentMargins Left="5" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="grid\headerSpecial.png">
+          <SizingMargins Bottom="4" Top="5" Left="4" Right="4" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </HeaderSpecial>
+      <Indicator>
+        <ContentMargins Bottom="3" Top="3" Left="4" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="grid\indicator.png">
+          <SizingMargins Bottom="3" Top="2" Left="2" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Indicator>
+      <IndicatorImages>
+        <Image ImageCount="10" Layout="Horizontal" Stretch="NoResize" ImageName="grid\indicatorimages.png" />
+      </IndicatorImages>
+      <PlusMinus>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="grid\PlusMinus.png" />
+      </PlusMinus>
+      <PlusMinusEx>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="grid\plusminusex.png" />
+      </PlusMinusEx>
+      <SmartFilterButton>
+        <Image ImageCount="5" Layout="Vertical" Stretch="NoResize" ImageName="grid\smartfilterbutton.png" />
+        <Properties>
+          <OffsetX Value="-2" ValueType="System.Int32" />
+          <OffsetY Value="2" ValueType="System.Int32" />
+        </Properties>
+      </SmartFilterButton>
+      <SortShape>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="grid\sortShape.png" />
+      </SortShape>
+      <ViewCaption>
+        <ContentMargins Bottom="2" />
+        <Border Bottom="200,217,240">
+          <BorderThin Bottom="1" />
+        </Border>
+        <Color FontBold="True" GradientMode="Vertical" BackColor="$Control" BackColor2="$Control" ForeColor="$ControlText" />
+      </ViewCaption>
+    </Elements>
+  </Skin5>
+  <Skin6 SkinProduct="Bars" SkinName="Golden Thread">
+    <Colors>
+      <ColorLinkDisabledForeColor Value="159,174,195" />
+    </Colors>
+    <Elements>
+      <AlertBarItem>
+        <ContentMargins Bottom="3" Top="3" Left="4" Right="4" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="bars\alertbaritem.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+      </AlertBarItem>
+      <AlertCaptionTop>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\alertcaptiontop.png">
+          <SizingMargins Top="7" Left="5" Right="5" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\alertcaptiontop_glyph.png" />
+        <Offset Kind="Default" Offset="X=1,Y=2" />
+      </AlertCaptionTop>
+      <AlertWindow>
+        <ContentMargins Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\alertwindow.png">
+          <SizingMargins Bottom="5" Left="5" Right="5" />
+        </Image>
+        <Properties>
+          <CornerRadius Value="7" ValueType="System.Int32" />
+        </Properties>
+        <Offset Kind="Default" Offset="X=2,Y=3" />
+      </AlertWindow>
+      <Bar>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\bar.png">
+          <SizingMargins Bottom="4" Top="13" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Bar>
+      <BarCustomize>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="bars\barcustomize.png">
+          <SizingMargins Bottom="4" Top="13" Left="6" Right="6" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\barcustomize_glyph.png" />
+        <Size MinSize="Width=15,Height=10" />
+      </BarCustomize>
+      <BarCustomizeVertical>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="bars\barcustomizevertical.png">
+          <SizingMargins Bottom="6" Top="6" Left="13" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\barcustomizevertical_glyph.png" />
+        <Size MinSize="Width=10,Height=12" />
+      </BarCustomizeVertical>
+      <BarDrag>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\bardrag.png">
+          <SizingMargins Bottom="4" Top="13" Left="5" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\bardrag_glyph.png" />
+      </BarDrag>
+      <BarDragVertical>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\bardragvertical.png">
+          <SizingMargins Top="5" Left="13" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\bardragvertical_glyph.png" />
+      </BarDragVertical>
+      <BarSeparator>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" ImageName="bars\barseparator.png" />
+        <Size MinSize="Width=7,Height=10" />
+      </BarSeparator>
+      <BarVertical>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\barvertical.png">
+          <SizingMargins Left="13" Right="4" />
+        </Image>
+        <Color BackColor="196,236,255" BackColor2="22,182,245" ForeColor="$ControlText" />
+      </BarVertical>
+      <BarVerticalSeparator>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" ImageName="bars\barverticalseparator.png" />
+        <Size MinSize="Width=10,Height=7" />
+      </BarVerticalSeparator>
+      <CloseButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\closebuttonglyph_glyph.png" />
+      </CloseButtonGlyph>
+      <CollapseButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Vertical" ImageName="bars\collapsebuttonglyph_glyph.png" />
+      </CollapseButtonGlyph>
+      <Dock>
+        <Color BackColor="Gray" />
+      </Dock>
+      <DockWindowButtons>
+        <Image ImageCount="8" Layout="Horizontal" Stretch="NoResize" ImageName="bars\dockwindowbuttons.png" />
+      </DockWindowButtons>
+      <DockWindowButtonsHot>
+        <Image ImageCount="8" Layout="Horizontal" Stretch="NoResize" ImageName="bars\dockwindowbuttonshot.png" />
+      </DockWindowButtonsHot>
+      <DockWindowButtonsPressed>
+        <Image ImageCount="8" Layout="Horizontal" Stretch="NoResize" ImageName="bars\dockwindowbuttonspressed.png" />
+      </DockWindowButtonsPressed>
+      <ExpandButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Vertical" ImageName="bars\expandbuttonglyph_glyph.png" />
+      </ExpandButtonGlyph>
+      <FloatingBar>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\floatingbar.png">
+          <SizingMargins Bottom="3" Top="13" />
+        </Image>
+        <Border Left="Gray" Right="Gray" Top="Gray" Bottom="Gray" />
+        <Color BackColor="171,171,171" ForeColor="Black" />
+      </FloatingBar>
+      <LinkBorderPainter>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\linkborderpainter.png">
+          <SizingMargins Bottom="11" Top="11" Right="3" />
+        </Image>
+        <Size MinSize="Width=0,Height=0" />
+      </LinkBorderPainter>
+      <LinkQuickCustomization>
+        <Color BackColor="192,255,192" BackColor2="128,255,128" ForeColor="64,64,64" />
+      </LinkQuickCustomization>
+      <LinkSelected>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="bars\linkselected.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+      </LinkSelected>
+      <MainMenu>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Properties>
+          <ForeColorHot Value="$ControlText" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="$ControlText" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="Gray" ForeColor="White" />
+      </MainMenu>
+      <MainMenuCustomize>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="bars\mainmenucustomize.png">
+          <SizingMargins Bottom="3" Top="11" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\mainmenucustomize_glyph.png" />
+        <Size MinSize="Width=15,Height=10" />
+      </MainMenuCustomize>
+      <MainMenuDrag>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\mainmenudrag.png">
+          <SizingMargins Bottom="4" Top="13" Left="5" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\mainmenudrag_glyph.png" />
+      </MainMenuDrag>
+      <MainMenuLinkSelected>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\mainmenulinkselected.png">
+          <SizingMargins Bottom="2" Top="9" Left="2" Right="3" />
+        </Image>
+      </MainMenuLinkSelected>
+      <MainMenuVertical>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Color BackColor="85,126,180" ForeColor="White" />
+      </MainMenuVertical>
+      <MaximizeButtonGlyph />
+      <MinimizeButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\minimizebuttonglyph_glyph.png" />
+      </MinimizeButtonGlyph>
+      <PopupMenu>
+        <Border Left="Gray" Right="Gray" Top="Gray" Bottom="Gray">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="$Control" ForeColor="$ControlText" />
+      </PopupMenu>
+      <PopupMenuCheck>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="bars\popupmenucheck.png">
+          <SizingMargins Bottom="7" Top="10" Left="7" Right="7" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\popupmenucheck_glyph.png" />
+      </PopupMenuCheck>
+      <PopupMenuExpandButton>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="NoResize" ImageName="bars\popupmenuexpandbutton.png" />
+      </PopupMenuExpandButton>
+      <PopupMenuLinkSelected>
+        <ContentMargins Bottom="3" Top="3" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="bars\popupmenulinkselected.png">
+          <SizingMargins Bottom="3" Top="13" Left="3" Right="3" />
+        </Image>
+        <Size MinSize="Width=1,Height=1" />
+      </PopupMenuLinkSelected>
+      <PopupMenuSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Tile" ImageName="bars\popupmenuseparator.png" />
+        <Size MinSize="Width=10,Height=3" />
+      </PopupMenuSeparator>
+      <PopupMenuSideStrip>
+        <ContentMargins Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\popupmenusidestrip.png">
+          <SizingMargins Right="1" />
+        </Image>
+        <Color BackColor="225,245,255" />
+      </PopupMenuSideStrip>
+      <PopupMenuSideStripNonRecent>
+        <ContentMargins Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\popupmenusidestripnonrecent.png">
+          <SizingMargins Right="1" />
+        </Image>
+        <Color BackColor="241,251,255" />
+      </PopupMenuSideStripNonRecent>
+      <PopupMenuSplitButton>
+        <ContentMargins Bottom="3" Top="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="bars\popupmenusplitbutton.png">
+          <SizingMargins Bottom="3" Top="13" Left="3" Right="3" />
+        </Image>
+        <Size MinSize="Width=1,Height=1" />
+      </PopupMenuSplitButton>
+      <PopupMenuSplitButton2>
+        <ContentMargins Bottom="3" Top="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="bars\popupmenusplitbutton2.png">
+          <SizingMargins Bottom="3" Top="13" Left="3" Right="3" />
+        </Image>
+        <Size MinSize="Width=1,Height=1" />
+      </PopupMenuSplitButton2>
+      <RestoreButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\restorebuttonglyph_glyph.png" />
+      </RestoreButtonGlyph>
+      <StatusBar>
+        <ContentMargins Bottom="2" Top="2" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="bars\statusbar.png">
+          <SizingMargins Bottom="1" Top="8" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </StatusBar>
+    </Elements>
+  </Skin6>
+  <Skin7 SkinProduct="MetroUI" SkinName="Golden Thread">
+    <Properties>
+      <HeaderButtonHorizontalOffset Value="-20" ValueType="System.Int32" />
+      <HeaderButtonToTextInterval Value="-10" ValueType="System.Int32" />
+      <HeaderButtonVerticalOffset Value="2" ValueType="System.Int32" />
+      <PageGroupButtonsInterval Value="1" ValueType="System.Int32" />
+      <SlideGroupInterval Value="40" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <OverviewTileHotColor Value="$HighlightText" />
+      <OverviewTilePressedColor Value="$HighlightText" />
+    </Colors>
+    <Elements>
+      <ActionsBar>
+        <ContentMargins Bottom="16" Top="16" Left="10" Right="10" />
+        <Color BackColor="128,131,143" />
+      </ActionsBar>
+      <ActionsBarButton>
+        <Color ForeColor="White" />
+        <Size MinSize="Width=80,Height=0" />
+      </ActionsBarButton>
+      <Header>
+        <ContentMargins Bottom="20" Top="30" Left="40" Right="40" />
+        <Properties>
+          <FontDelta Value="7" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </Header>
+      <OverviewContainer>
+        <ContentMargins Bottom="40" Top="40" Left="80" Right="80" />
+      </OverviewContainer>
+      <OverviewTile>
+        <ContentMargins Bottom="16" Top="16" Left="10" Right="10" />
+        <Color BackColor="$Highlight" ForeColor="$HighlightText" />
+      </OverviewTile>
+      <Page />
+      <PageGroup />
+      <PageGroupItemHeader>
+        <ContentMargins Top="22" Left="40" Right="40" />
+      </PageGroupItemHeader>
+      <PageGroupItemHeaderButton>
+        <ContentMargins Bottom="10" Top="10" Left="15" Right="15" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="metroui\pagegroupitemheaderbutton.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <FontDelta Value="4" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </PageGroupItemHeaderButton>
+      <SlideGroup>
+        <ContentMargins Bottom="40" Left="40" Right="40" />
+      </SlideGroup>
+      <SlideGroupItemHeader>
+        <ContentMargins Bottom="5" Left="40" Right="40" />
+        <Properties>
+          <FontDelta Value="2" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$DisabledText" />
+      </SlideGroupItemHeader>
+      <SplitGroup>
+        <ContentMargins Bottom="40" Left="40" Right="40" />
+      </SplitGroup>
+      <TileContainer>
+        <ContentMargins Bottom="40" />
+      </TileContainer>
+    </Elements>
+  </Skin7>
+  <Skin8 SkinProduct="Docking" SkinName="Golden Thread">
+    <Properties>
+      <SelectedHeaderDownGrow Value="1" ValueType="System.Int32" />
+      <SelectedHeaderHGrow Value="2" ValueType="System.Int32" />
+      <SelectedHeaderUpGrow Value="0" ValueType="System.Int32" />
+      <TabHeaderLineHGrow Value="0" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <TabHeaderTextColor Value="Gray" />
+      <TabHeaderTextColorActive Value="Black" />
+      <TabHeaderTextColorDisabled Value="$ControlText" />
+      <TabHeaderTextColorHot Value="Black" />
+    </Colors>
+    <Elements>
+      <ActionBar>
+        <Properties>
+          <ActionBarBackgroundColor Value="48,98,132" ValueType="System.Drawing.Color" />
+        </Properties>
+      </ActionBar>
+      <ActionBarButton>
+        <Properties>
+          <ActionBarButtonHotColor Value="255,255,255" ValueType="System.Drawing.Color" />
+          <ActionBarButtonNormalColor Value="255,255,255" ValueType="System.Drawing.Color" />
+          <ActionBarButtonPressedColor Value="255,255,255" ValueType="System.Drawing.Color" />
+        </Properties>
+      </ActionBarButton>
+      <DockWindowBorder>
+        <ContentMargins Bottom="3" Top="1" Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\dockwindowborder.png">
+          <SizingMargins Bottom="2" Left="2" Right="2" />
+        </Image>
+        <Color BackColor="$Control" ForeColor="Black" />
+      </DockWindowBorder>
+      <DockWindowButton>
+        <ContentMargins Bottom="5" Top="5" Left="5" Right="5" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="docking\dockwindowbutton.png">
+          <SizingMargins Bottom="1" Top="8" Left="3" Right="3" />
+        </Image>
+      </DockWindowButton>
+      <DockWindowCaption>
+        <ContentMargins Bottom="3" Top="4" Left="4" Right="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="docking\dockwindowcaption.png">
+          <SizingMargins Bottom="4" Top="9" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <UnFocusCaptionColor Value="$DisabledControl" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+      </DockWindowCaption>
+      <DocumentGroupTabHeader>
+        <ContentMargins Bottom="3" Top="4" Left="9" Right="9" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="docking\documentgrouptabheader.png">
+          <SizingMargins Top="2" Left="2" Right="2" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </DocumentGroupTabHeader>
+      <DocumentGroupTabPane>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="docking\documentgrouptabpane.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" SolidImageCenterColor="$Control" />
+      </DocumentGroupTabPane>
+      <DocumentSelector>
+        <ContentMargins Bottom="30" Top="30" Left="26" Right="26" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\documentselector.png">
+          <SizingMargins Bottom="30" Top="30" Left="30" Right="30" />
+        </Image>
+        <Properties>
+          <CornerRadius Value="0" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </DocumentSelector>
+      <DocumentSelectorFooter>
+        <ContentMargins Bottom="4" Top="8" Left="12" Right="12" />
+        <Color ForeColor="93,92,109" />
+      </DocumentSelectorFooter>
+      <DocumentSelectorHeader>
+        <ContentMargins Bottom="12" Top="8" Left="12" Right="12" />
+        <Color FontBold="True" ForeColor="$ControlText" />
+      </DocumentSelectorHeader>
+      <FloatingWindowBorder>
+        <ContentMargins Bottom="2" Top="1" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\floatingwindowborder.png">
+          <SizingMargins Bottom="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="$Control" ForeColor="Black" />
+      </FloatingWindowBorder>
+      <FloatingWindowCaption>
+        <ContentMargins Bottom="3" Top="3" Left="4" Right="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="docking\floatingwindowcaption.png">
+          <SizingMargins Bottom="4" Top="8" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="White" />
+      </FloatingWindowCaption>
+      <HideBar>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\hidebar.png">
+          <SizingMargins Bottom="4" Top="5" Left="5" Right="5" />
+        </Image>
+        <Color BackColor="$Control" />
+      </HideBar>
+      <HideBarBottom>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\hidebarbottom.png">
+          <SizingMargins Top="4" Left="5" Right="5" />
+        </Image>
+        <Color BackColor="242,0,0" />
+      </HideBarBottom>
+      <HideBarLeft>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\hidebarleft.png">
+          <SizingMargins Bottom="5" Top="5" Left="4" Right="4" />
+        </Image>
+        <Color BackColor="0,239,0" />
+      </HideBarLeft>
+      <HideBarRight>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\hidebarright.png">
+          <SizingMargins Bottom="5" Top="5" Left="4" />
+        </Image>
+        <Color BackColor="0,0,231" />
+      </HideBarRight>
+      <TabHeader>
+        <ContentMargins Left="4" Right="4" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="docking\tabheader.png">
+          <SizingMargins Bottom="1" Top="4" Left="4" Right="4" />
+        </Image>
+        <Color ForeColor="Black" />
+      </TabHeader>
+      <TabHeaderBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="docking\tabheaderbackground.png">
+          <SizingMargins Top="4" />
+        </Image>
+        <Color BackColor="170,170,170" />
+      </TabHeaderBackground>
+      <TabHeaderHideBar>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="docking\tabheaderhidebar.png">
+          <SizingMargins Bottom="1" Top="8" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="White" />
+      </TabHeaderHideBar>
+      <TabHeaderLine>
+        <Color BackColor="Gray" />
+        <Size MinSize="Width=10,Height=1" />
+      </TabHeaderLine>
+    </Elements>
+  </Skin8>
+  <Skin9 SkinProduct="VGrid" SkinName="Golden Thread">
+    <Elements>
+      <BandBorder>
+        <Color BackColor="171,171,171" />
+      </BandBorder>
+      <Border>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Properties>
+          <Indent Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="171,171,171" />
+      </Border>
+      <Category>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171" />
+        <Color GradientMode="Vertical" BackColor="$Control" ForeColor="$ControlText" />
+      </Category>
+      <CategoryButton>
+        <Image ImageCount="6" Layout="Vertical" Stretch="NoResize" ImageName="vgrid\categorybutton.png" />
+      </CategoryButton>
+      <FixedLine>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171" />
+        <Color BackColor="Gray" />
+      </FixedLine>
+      <GridLine>
+        <Border Left="171,171,171" Right="171,171,171" Top="171,171,171" Bottom="171,171,171" />
+        <Color BackColor="171,171,171" />
+      </GridLine>
+      <Row>
+        <Color GradientMode="Vertical" BackColor="Silver" ForeColor="Black" />
+      </Row>
+      <RowDisabled>
+        <Color BackColor="224,224,224" ForeColor="$DisabledText" />
+      </RowDisabled>
+    </Elements>
+  </Skin9>
+  <Skin10 SkinProduct="Scheduler" SkinName="Golden Thread">
+    <Properties>
+      <AppointmentStatusLineHeight Value="6" ValueType="System.Int32" />
+      <AppointmentStatusLineWidth Value="7" ValueType="System.Int32" />
+      <DayViewAppointmentLeftPadding Value="2" ValueType="System.Int32" />
+      <HeaderRequireHorzOffset Value="True" ValueType="System.Boolean" />
+      <HeaderRequireVertOffset Value="True" ValueType="System.Boolean" />
+      <MonthViewCellHeaderForeColor Value="$ControlText" ValueType="System.Drawing.Color" />
+      <MonthViewSelectedCellHeaderForeColor Value="White" ValueType="System.Drawing.Color" />
+      <PaintHotTrackedWithResourceColor Value="False" ValueType="System.Boolean" />
+      <PaintResourceHeaderWithResourceColor Value="False" ValueType="System.Boolean" />
+    </Properties>
+    <Elements>
+      <AllDayArea>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\alldayarea.png">
+          <SizingMargins Bottom="1" Left="1" />
+        </Image>
+        <Border Left="Gray" Right="Gray" Top="Gray" Bottom="Gray" />
+        <Properties>
+          <BaseColor Value="208,216,224" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="85,126,180" />
+      </AllDayArea>
+      <AllDayAreaSelected>
+        <Border Left="Gray" Right="Gray" Top="Gray" Bottom="Gray" />
+        <Color BackColor="$Highlight" />
+      </AllDayAreaSelected>
+      <Appointment>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointment.png">
+          <SizingMargins Bottom="8" Top="8" Left="8" Right="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+      </Appointment>
+      <AppointmentBorder>
+        <Border Left="122,146,197" Right="122,146,197" Top="122,146,197" Bottom="122,146,197">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+      </AppointmentBorder>
+      <AppointmentBottomShadow>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\appointmentbottomshadow.png">
+          <SizingMargins Bottom="4" Left="8" Right="8" />
+        </Image>
+      </AppointmentBottomShadow>
+      <AppointmentContent>
+        <ContentMargins Bottom="3" Top="3" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentcontent.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+      </AppointmentContent>
+      <AppointmentLeftBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentleftborder.png">
+          <SizingMargins Bottom="8" Top="8" Left="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=8,Height=10" />
+      </AppointmentLeftBorder>
+      <AppointmentNoLeftBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentnoleftborder.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+        <Size MinSize="Width=3,Height=10" />
+      </AppointmentNoLeftBorder>
+      <AppointmentNoRightBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentnorightborder.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+        <Size MinSize="Width=3,Height=10" />
+      </AppointmentNoRightBorder>
+      <AppointmentRightBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentrightborder.png">
+          <SizingMargins Bottom="8" Top="8" Right="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=8,Height=10" />
+      </AppointmentRightBorder>
+      <AppointmentRightShadow>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\appointmentrightshadow.png">
+          <SizingMargins Bottom="8" Top="8" Right="4" />
+        </Image>
+      </AppointmentRightShadow>
+      <AppointmentSameDayContent>
+        <ContentMargins Bottom="3" Top="3" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentsamedaycontent.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+      </AppointmentSameDayContent>
+      <AppointmentSameDayLeftBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentsamedayleftborder.png">
+          <SizingMargins Bottom="8" Top="8" Left="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=8,Height=10" />
+      </AppointmentSameDayLeftBorder>
+      <AppointmentSameDayNoLeftBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentsamedaynoleftborder.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+        <Size MinSize="Width=3,Height=10" />
+      </AppointmentSameDayNoLeftBorder>
+      <AppointmentSameDayNoRightBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentsamedaynorightborder.png">
+          <SizingMargins Bottom="8" Top="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="Black" />
+        <Size MinSize="Width=3,Height=10" />
+      </AppointmentSameDayNoRightBorder>
+      <AppointmentSameDayRightBorder>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentsamedayrightborder.png">
+          <SizingMargins Bottom="8" Top="8" Right="8" />
+        </Image>
+        <Properties>
+          <BaseColor Value="215,233,255" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=8,Height=10" />
+      </AppointmentSameDayRightBorder>
+      <AppointmentStatusLeftMask>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentstatusleftmask.png">
+          <SizingMargins Bottom="8" Top="8" Left="6" />
+        </Image>
+      </AppointmentStatusLeftMask>
+      <AppointmentStatusTopMask>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\appointmentstatustopmask.png">
+          <SizingMargins Top="6" Left="8" Right="8" />
+        </Image>
+      </AppointmentStatusTopMask>
+      <Border>
+        <Border Left="142,170,205" Right="142,170,205" Top="142,170,205" Bottom="142,170,205">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Properties>
+          <Indent Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="243,248,255" />
+      </Border>
+      <CellBorder />
+      <CurrentTimeIndicator>
+        <Image ImageCount="2" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\currenttimeindicator.png">
+          <SizingMargins Right="6" />
+        </Image>
+        <Size MinSize="Width=10,Height=11" />
+      </CurrentTimeIndicator>
+      <DefaultTimeLine>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\defaulttimeline.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" BackColor2="Silver" />
+        <Size MinSize="Width=1,Height=10" />
+      </DefaultTimeLine>
+      <Dependency>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="NoResize" ImageName="scheduler\dependency.png" />
+        <Properties>
+          <BaseColor Value="" ValueType="System.Drawing.Color" />
+          <Opacity Value="112" ValueType="System.Int32" />
+          <SelectedColor Value="$ControlText" ValueType="System.Drawing.Color" />
+          <SelectedOpacity Value="230" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </Dependency>
+      <DependencyCorner>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="NoResize" ImageName="scheduler\dependencycorner.png" />
+      </DependencyCorner>
+      <GroupSeparatorHorizontal>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\groupseparatorhorizontal.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" />
+        <Size MinSize="Width=10,Height=4" />
+      </GroupSeparatorHorizontal>
+      <GroupSeparatorVertical>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\groupseparatorvertical.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" />
+        <Size MinSize="Width=4,Height=10" />
+      </GroupSeparatorVertical>
+      <Header>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\header.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Properties>
+          <BaseColor Value="226,239,254" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="$ControlText" />
+      </Header>
+      <HeaderAlternate>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headeralternate.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="Black" />
+      </HeaderAlternate>
+      <HeaderAlternateSelected>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headeralternateselected.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="Black" />
+      </HeaderAlternateSelected>
+      <HeaderResource>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headerresource.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <BaseColor Value="226,239,254" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="192,255,192" BackColor2="Lime" ForeColor="$ControlText" />
+      </HeaderResource>
+      <HeaderResourceVertical>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headerresourcevertical.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <BaseColor Value="226,239,254" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </HeaderResourceVertical>
+      <HeaderSelected>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headerselected.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </HeaderSelected>
+      <HeaderVertical>
+        <ContentMargins Bottom="3" Top="3" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\headervertical.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </HeaderVertical>
+      <MoreButton>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\morebutton.png">
+          <SizingMargins Bottom="8" Top="8" Left="8" Right="8" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="scheduler\morebutton_glyph.png" />
+        <Color ForeColor="White" />
+        <Size MinSize="Width=26,Height=15" />
+      </MoreButton>
+      <NavButtonNext>
+        <ContentMargins Bottom="14" Top="14" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\navbuttonnext.png">
+          <SizingMargins Bottom="21" Top="21" Left="3" Right="1" />
+        </Image>
+        <Properties>
+          <AlternateColor Value="160,193,218" ValueType="System.Drawing.Color" />
+          <BaseColor Value="200,213,231" ValueType="System.Drawing.Color" />
+          <ContentVerticalGap Value="5" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="102,136,179" />
+        <Size MinSize="Width=24,Height=31" />
+      </NavButtonNext>
+      <NavButtonNextArrow>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="scheduler\navbuttonnextarrow.png" />
+        <Properties>
+          <BaseColor Value="200,213,231" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="White" />
+        <Size MinSize="Width=13,Height=13" />
+      </NavButtonNextArrow>
+      <NavButtonPrev>
+        <ContentMargins Bottom="14" Top="14" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\navbuttonprev.png">
+          <SizingMargins Bottom="21" Top="21" Left="1" Right="3" />
+        </Image>
+        <Properties>
+          <AlternateColor Value="160,193,218" ValueType="System.Drawing.Color" />
+          <BaseColor Value="200,213,231" ValueType="System.Drawing.Color" />
+          <ContentVerticalGap Value="5" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="102,136,179" />
+        <Size MinSize="Width=24,Height=31" />
+      </NavButtonPrev>
+      <NavButtonPrevArrow>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="scheduler\navbuttonprevarrow.png" />
+        <Properties>
+          <BaseColor Value="200,213,231" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="White" />
+        <Size MinSize="Width=13,Height=13" />
+      </NavButtonPrevArrow>
+      <Ruler>
+        <ContentMargins Left="5" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\ruler.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color GradientMode="Vertical" BackColor2="Teal" ForeColor="102,136,179" />
+        <Size MinSize="Width=48,Height=10" />
+      </Ruler>
+      <RulerHeader>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="scheduler\rulerheader.png">
+          <SizingMargins Bottom="1" Top="5" Left="5" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </RulerHeader>
+      <RulerHourLine>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\rulerhourline.png" />
+      </RulerHourLine>
+      <RulerMinLine>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\rulerminline.png">
+          <SizingMargins Right="17" />
+        </Image>
+        <Color BackColor="Transparent" />
+      </RulerMinLine>
+      <UpperLeftCorner>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="scheduler\upperleftcorner.png">
+          <SizingMargins Bottom="1" Top="5" Left="5" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </UpperLeftCorner>
+    </Elements>
+  </Skin10>
+  <Skin11 SkinProduct="NavPane" SkinName="Golden Thread">
+    <Properties>
+      <GroupClientTopIndent Value="0" ValueType="System.Int32" />
+      <GroupRequireOffset Value="True" ValueType="System.Boolean" />
+    </Properties>
+    <Elements>
+      <Caption>
+        <ContentMargins Bottom="3" Top="3" Left="10" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\caption.png">
+          <SizingMargins Bottom="2" Top="7" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Caption>
+      <CollapseButton>
+        <ContentMargins Bottom="8" Top="8" Left="2" Right="2" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\collapsebutton.png" />
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="navpane\collapsebutton_glyph.png" />
+      </CollapseButton>
+      <CollapsedGroupClient>
+        <ContentMargins Left="1" Right="1" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\collapsedgroupclient.png">
+          <SizingMargins Bottom="1" Top="1" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <ForeColor Value="50,50,50" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="$Control" />
+      </CollapsedGroupClient>
+      <CollapsedGroupClientWithBorder>
+        <ContentMargins Left="1" Right="1" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\collapsedgroupclientwithborder.png">
+          <SizingMargins Bottom="3" Top="1" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <ForeColor Value="50,50,50" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="$Control" />
+      </CollapsedGroupClientWithBorder>
+      <ExpandButton>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\expandbutton.png" />
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="navpane\expandbutton_glyph.png" />
+      </ExpandButton>
+      <GroupButton>
+        <ContentMargins Bottom="4" Top="4" Left="4" Right="4" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\groupbutton.png">
+          <SizingMargins Bottom="2" Top="17" Left="7" Right="7" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupButton>
+      <GroupButtonSelected>
+        <ContentMargins Bottom="4" Top="4" Left="2" Right="2" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\groupbuttonselected.png">
+          <SizingMargins Bottom="2" Top="17" Left="7" Right="7" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </GroupButtonSelected>
+      <GroupClient>
+        <ContentMargins Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\groupclient.png">
+          <SizingMargins Bottom="1" Top="1" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="Black" />
+      </GroupClient>
+      <GroupClientWithBorder>
+        <ContentMargins Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\groupclientwithborder.png">
+          <SizingMargins Bottom="3" Top="1" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="Black" />
+      </GroupClientWithBorder>
+      <Item>
+        <ContentMargins Bottom="2" Top="3" Left="2" Right="2" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\item.png">
+          <SizingMargins Bottom="3" Top="13" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Item>
+      <ItemSelected>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\itemselected.png">
+          <SizingMargins Bottom="3" Top="13" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </ItemSelected>
+      <NavPaneFormBorder>
+        <ContentMargins Bottom="3" Top="5" Left="4" Right="5" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\navpaneformborder.png">
+          <SizingMargins Bottom="5" Top="5" Left="4" Right="5" />
+        </Image>
+      </NavPaneFormBorder>
+      <NavPaneFormLeftSizeGrip>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\navpaneformleftsizegrip.png" />
+      </NavPaneFormLeftSizeGrip>
+      <NavPaneFormSizeGrip>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\navpaneformsizegrip.png" />
+      </NavPaneFormSizeGrip>
+      <OverflowPanel>
+        <ContentMargins Bottom="2" Top="1" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="navpane\overflowpanel.png">
+          <SizingMargins Bottom="4" Top="10" Left="5" Right="5" />
+        </Image>
+      </OverflowPanel>
+      <OverflowPanelExpandItem>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="navpane\overflowpanelexpanditem.png">
+          <SizingMargins Bottom="2" Top="13" Left="3" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="navpane\overflowpanelexpanditem_glyph.png" />
+      </OverflowPanelExpandItem>
+      <OverflowPanelItem>
+        <ContentMargins Bottom="6" Top="6" Left="4" Right="4" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="navpane\overflowpanelitem.png">
+          <SizingMargins Bottom="2" Top="13" Left="3" Right="4" />
+        </Image>
+      </OverflowPanelItem>
+      <ScrollDownButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="navpane\scrolldownbutton.png" />
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="navpane\scrolldownbutton_glyph.png" />
+      </ScrollDownButton>
+      <ScrollUpButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="navpane\scrollupbutton.png" />
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="navpane\scrollupbutton_glyph.png" />
+      </ScrollUpButton>
+      <Splitter>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="navpane\splitter.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="navpane\splitter_glyph.png" />
+        <Size MinSize="Width=0,Height=6" />
+      </Splitter>
+    </Elements>
+  </Skin11>
+  <Skin12 SkinProduct="Form" SkinName="Golden Thread">
+    <Colors>
+      <InactiveColor Value="Black" />
+      <TextShadowColor Value="" />
+    </Colors>
+    <Elements>
+      <FormButtonClose>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonclose.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\formbuttonclose_glyph.png" />
+        <Size MinSize="Width=21,Height=21" />
+      </FormButtonClose>
+      <FormButtonHelp>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonhelp.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\formbuttonhelp_glyph.png" />
+        <Size MinSize="Width=21,Height=21" />
+      </FormButtonHelp>
+      <FormButtonMaximize>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonmaximize.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\formbuttonmaximize_glyph.png" />
+        <Size MinSize="Width=21,Height=21" AllowHGrow="False" AllowVGrow="False" />
+      </FormButtonMaximize>
+      <FormButtonMdiClose>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonmdiclose.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="form\formbuttonmdiclose_glyph.png" />
+      </FormButtonMdiClose>
+      <FormButtonMdiMinimize>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonmdiminimize.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="form\formbuttonmdiminimize_glyph.png" />
+      </FormButtonMdiMinimize>
+      <FormButtonMdiRestore>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonmdirestore.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="form\formbuttonmdirestore_glyph.png" />
+      </FormButtonMdiRestore>
+      <FormButtonMinimize>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonminimize.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\formbuttonminimize_glyph.png" />
+        <Size MinSize="Width=21,Height=21" />
+      </FormButtonMinimize>
+      <FormButtonRestore>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\formbuttonrestore.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\formbuttonrestore_glyph.png" />
+        <Size MinSize="Width=21,Height=21" />
+      </FormButtonRestore>
+      <FormCaption>
+        <ContentMargins Bottom="5" Top="5" Left="12" Right="7" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\formcaption.png">
+          <SizingMargins Bottom="3" Top="5" Left="5" Right="5" />
+        </Image>
+        <Properties>
+          <FontDelta Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color GradientMode="Vertical" SolidImageCenterGradientMode="Vertical" ForeColor="Black" />
+      </FormCaption>
+      <FormCaptionMinimized>
+        <ContentMargins Bottom="4" Top="4" Left="10" Right="5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\formcaptionminimized.png">
+          <SizingMargins Bottom="3" Top="5" Left="5" Right="5" />
+        </Image>
+        <Properties>
+          <FontDelta Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="Black" />
+        <Size MinSize="Width=10,Height=20" AllowHGrow="False" AllowVGrow="False" />
+      </FormCaptionMinimized>
+      <FormFrameBottom>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\formframebottom.png" TransparentColor="Red">
+          <SizingMargins Bottom="2" Top="2" Left="4" Right="4" />
+        </Image>
+        <Size MinSize="Width=0,Height=2" AllowHGrow="False" AllowVGrow="False" />
+      </FormFrameBottom>
+      <FormFrameLeft>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\formframeleft.png" />
+        <Size MinSize="Width=4,Height=0" />
+      </FormFrameLeft>
+      <FormFrameRight>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\formframeright.png">
+          <SizingMargins Right="1" />
+        </Image>
+        <Size MinSize="Width=4,Height=0" />
+      </FormFrameRight>
+      <FormMdiBar>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="form\formmdibar.png" />
+        <Size MinSize="Width=10,Height=20" />
+      </FormMdiBar>
+      <SmallFormButtonClose>
+        <ContentMargins Bottom="4" Top="4" Left="4" Right="4" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="NoResize" ImageName="form\smallformbuttonclose.png">
+          <SizingMargins Bottom="2" Top="7" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\smallformbuttonclose_glyph.png" />
+        <Size MinSize="Width=15,Height=15" />
+      </SmallFormButtonClose>
+      <SmallFormButtonHelp>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\smallformbuttonhelp.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\smallformbuttonhelp_glyph.png" />
+        <Size MinSize="Width=17,Height=17" />
+      </SmallFormButtonHelp>
+      <SmallFormButtonMaximize>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\smallformbuttonmaximize.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\smallformbuttonmaximize_glyph.png" />
+        <Size MinSize="Width=17,Height=17" />
+      </SmallFormButtonMaximize>
+      <SmallFormButtonMinimize>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\smallformbuttonminimize.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\smallformbuttonminimize_glyph.png" />
+        <Size MinSize="Width=17,Height=17" />
+      </SmallFormButtonMinimize>
+      <SmallFormButtonRestore>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="form\smallformbuttonrestore.png">
+          <SizingMargins Bottom="2" Top="11" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="5" Layout="Vertical" ImageName="form\smallformbuttonrestore_glyph.png" />
+        <Size MinSize="Width=17,Height=17" />
+      </SmallFormButtonRestore>
+      <SmallFormCaption>
+        <ContentMargins Bottom="2" Top="2" Left="9" Right="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="form\smallformcaption.png">
+          <SizingMargins Bottom="3" Top="5" Left="5" Right="5" />
+        </Image>
+      </SmallFormCaption>
+    </Elements>
+  </Skin12>
+  <Skin13 SkinProduct="Reports" SkinName="Golden Thread">
+    <Properties>
+      <DesingPanelPaddingBottom Value="0" ValueType="System.Int32" />
+      <DesingPanelPaddingLeft Value="0" ValueType="System.Int32" />
+      <DesingPanelPaddingRignt Value="0" ValueType="System.Int32" />
+      <DesingPanelPaddingTop Value="0" ValueType="System.Int32" />
+      <PageHorizontalIndent Value="0" ValueType="System.Int32" />
+      <PageVerticalIndent Value="0" ValueType="System.Int32" />
+      <ReportBackground Value="Silver" ValueType="System.Drawing.Color" />
+      <RequireHorzOffset Value="False" ValueType="System.Boolean" />
+      <RequireVertOffset Value="True" ValueType="System.Boolean" />
+      <RulerForeColor Value="65,106,160" ValueType="System.Drawing.Color" />
+      <RulerHorzMargins Value="1" ValueType="System.Int32" />
+      <RulerVertMargins Value="1" ValueType="System.Int32" />
+    </Properties>
+    <Elements>
+      <BandButtonLevel0>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="reports\bandbuttonlevel0.png" />
+      </BandButtonLevel0>
+      <BandButtonLevel1>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="reports\bandbuttonlevel1.png" />
+      </BandButtonLevel1>
+      <BandButtonLevel2>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="reports\bandbuttonlevel2.png" />
+      </BandButtonLevel2>
+      <BandButtonSelected>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="reports\bandbuttonselected.png" />
+      </BandButtonSelected>
+      <BandHeaderLevel0>
+        <ContentMargins Bottom="2" Top="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\bandheaderlevel0.png">
+          <SizingMargins Bottom="2" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </BandHeaderLevel0>
+      <BandHeaderLevel1>
+        <ContentMargins Bottom="2" Top="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\bandheaderlevel1.png">
+          <SizingMargins Bottom="2" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </BandHeaderLevel1>
+      <BandHeaderLevel2>
+        <ContentMargins Bottom="2" Top="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\bandheaderlevel2.png">
+          <SizingMargins Bottom="2" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </BandHeaderLevel2>
+      <BandHeaderSelected>
+        <ContentMargins Bottom="2" Top="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\bandheaderselected.png">
+          <SizingMargins Bottom="2" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" ForeColor="$ControlText" />
+      </BandHeaderSelected>
+      <ComponentTrayBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="reports\componenttraybackground.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+      </ComponentTrayBackground>
+      <ContrastCheckButton>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\contrastcheckbutton.png">
+          <SizingMargins Bottom="4" Top="4" Left="4" Right="4" />
+        </Image>
+        <Properties>
+          <Spacing Value="0" ValueType="System.Int32" />
+        </Properties>
+      </ContrastCheckButton>
+      <CornerPanel>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\cornerpanel.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="reports\cornerpanel_glyph.png" />
+        <Color BackColor="White" />
+      </CornerPanel>
+      <PageBorder>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="reports\pageborder.png">
+          <SizingMargins Bottom="31" Top="31" Left="31" Right="31" />
+        </Image>
+      </PageBorder>
+      <PopupFormBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="reports\popupformbackground.png">
+          <SizingMargins Bottom="1" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </PopupFormBackground>
+      <PopupFormCaption>
+        <ContentMargins Top="3" Left="5" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="reports\popupformcaption.png">
+          <SizingMargins Bottom="3" Top="8" Left="1" Right="1" />
+        </Image>
+        <Color ForeColor="White" />
+      </PopupFormCaption>
+      <RulerBackground>
+        <ContentMargins Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="reports\rulerbackground.png">
+          <SizingMargins Bottom="7" Top="7" Left="6" Right="6" />
+        </Image>
+        <Size MinSize="Width=24,Height=24" />
+      </RulerBackground>
+      <RulerRightMargin>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="reports\rulerrightmargin.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="$Control" />
+      </RulerRightMargin>
+      <RulerSection>
+        <Color BackColor="White" />
+      </RulerSection>
+      <RulerSelection>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="reports\rulerselection.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="218,234,254" />
+      </RulerSelection>
+      <RulerShadow>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="reports\rulershadow.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="218,234,254" />
+      </RulerShadow>
+      <ScriptControl>
+        <Properties>
+          <BracketHighlightColor Value="Black" ValueType="System.Drawing.Color" />
+          <BracketHighlightColorAlpha Value="40" ValueType="System.Int32" />
+          <LineColor Value="43,145,175" ValueType="System.Drawing.Color" />
+          <LineColorAlpha Value="175" ValueType="System.Int32" />
+          <LineNumbersColor Value="43,145,175" ValueType="System.Drawing.Color" />
+        </Properties>
+      </ScriptControl>
+      <Slider>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Vertical" ImageName="reports\slider_glyph.png" />
+      </Slider>
+      <SliderSelected>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="reports\sliderselected_glyph.png" />
+      </SliderSelected>
+      <SmartTag>
+        <Properties>
+          <BackColor Value="White" ValueType="System.Drawing.Color" />
+          <BackColorHotTracked Value="216,234,245" ValueType="System.Drawing.Color" />
+          <BorderColor Value="$ControlText" ValueType="System.Drawing.Color" />
+          <BorderColorHotTracked Value="$ControlText" ValueType="System.Drawing.Color" />
+          <ForeColor Value="$ControlText" ValueType="System.Drawing.Color" />
+          <ForeColorHotTracked Value="$ControlText" ValueType="System.Drawing.Color" />
+        </Properties>
+      </SmartTag>
+    </Elements>
+  </Skin13>
+  <Skin14 SkinProduct="Ribbon" SkinName="Golden Thread">
+    <Properties>
+      <ApplicationContainerControlTopIndent Value="2" ValueType="System.Int32" />
+      <FormApplicationButtonLeftIndent Value="0" ValueType="System.Int32" />
+      <FormApplicationButtonRightIndent Value="10" ValueType="System.Int32" />
+      <IndentBetweenButtonGroups Value="3" ValueType="System.Int32" />
+      <IndentBetweenColumns Value="1" ValueType="System.Int32" />
+      <IndentBetweenPageGroups Value="1" ValueType="System.Int32" />
+      <IndentBetweenRows Value="1" ValueType="System.Int32" />
+      <IndentBetweenStatusBarColumns Value="1" ValueType="System.Int32" />
+      <Office2010ApplicationButtonLeftIndent Value="8" ValueType="System.Int32" />
+      <Office2010ApplicationButtonRightIndent Value="6" ValueType="System.Int32" />
+      <TabHeaderDownGrow Value="2" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <ButtonDisabled Value="$DisabledText" />
+      <EditorBackground Value="228,235,245" />
+      <ForeColorDisabledInBottomQuickAccessToolbar Value="$DisabledText" />
+      <ForeColorDisabledInCaptionQuickAccessToolbar Value="$DisabledText" />
+      <ForeColorDisabledInPageHeader Value="$DisabledText" />
+      <ForeColorDisabledInTopQuickAccessToolbar Value="$DisabledText" />
+    </Colors>
+    <Elements>
+      <ApplicationButton2010>
+        <ContentMargins Left="12" Right="12" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\applicationbutton2010.png">
+          <SizingMargins Bottom="2" Top="7" Left="5" Right="5" />
+        </Image>
+        <Properties>
+          <ForeColorPressed Value="21,66,139" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="White" />
+        <Size MinSize="Width=56,Height=10" />
+      </ApplicationButton2010>
+      <ApplicationButtonContainerControl>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\applicationbuttoncontainercontrol.png" />
+      </ApplicationButtonContainerControl>
+      <ApplicationTabHeaderPage>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\applicationtabheaderpage.png">
+          <SizingMargins Bottom="5" Top="5" Left="9" Right="9" />
+        </Image>
+      </ApplicationTabHeaderPage>
+      <AppMenuBackground>
+        <ContentMargins Bottom="2" Top="25" Left="6" Right="5" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\appmenubackground.png">
+          <SizingMargins Bottom="2" Top="25" Left="5" Right="5" />
+        </Image>
+      </AppMenuBackground>
+      <AppMenuBackgroundBottom>
+        <ContentMargins Bottom="4" Top="4" Left="5" Right="5" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\appmenubackgroundbottom.png">
+          <SizingMargins Bottom="3" Top="7" Left="3" Right="3" />
+        </Image>
+      </AppMenuBackgroundBottom>
+      <AppMenuBackgroundTop>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\appmenubackgroundtop.png">
+          <SizingMargins Bottom="1" Top="2" Left="253" Right="2" />
+        </Image>
+        <Color FontBold="True" ForeColor="$ControlText" />
+        <Size MinSize="Width=10,Height=27" />
+      </AppMenuBackgroundTop>
+      <AppMenuItemDescription>
+        <Color ForeColor="114,116,126" />
+      </AppMenuItemDescription>
+      <AppMenuPane>
+        <ContentMargins Bottom="3" Top="1" Left="2" Right="4" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\appmenupane.png">
+          <SizingMargins Left="2" />
+        </Image>
+        <Color BackColor="224,238,255" ForeColor="Black" />
+      </AppMenuPane>
+      <BackstageViewControlButton>
+        <ContentMargins Bottom="6" Top="6" Left="12" Right="12" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\backstageviewcontrolbutton.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="4" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </BackstageViewControlButton>
+      <BackstageViewControlLeftPane>
+        <ContentMargins Bottom="2" Top="2" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\backstageviewcontrolleftpane.png">
+          <SizingMargins Right="30" />
+        </Image>
+      </BackstageViewControlLeftPane>
+      <BackstageViewControlTab>
+        <ContentMargins Bottom="15" Top="15" Left="15" Right="15" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\backstageviewcontroltab.png">
+          <SizingMargins Bottom="4" Top="4" Right="1" />
+        </Image>
+        <Properties>
+          <FontDelta Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </BackstageViewControlTab>
+      <BackstageViewControlTabArrow />
+      <BackstageViewImage />
+      <BackstageViewSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\backstageviewseparator.png" />
+        <Size MinSize="Width=10,Height=3" />
+      </BackstageViewSeparator>
+      <Button>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\button.png">
+          <SizingMargins Bottom="2" Top="9" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </Button>
+      <ButtonArrow>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\buttonarrow.png" />
+      </ButtonArrow>
+      <ButtonGroup>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\buttongroup.png">
+          <SizingMargins Bottom="3" Top="10" Left="3" Right="3" />
+        </Image>
+      </ButtonGroup>
+      <ButtonGroupButton>
+        <ContentMargins Bottom="3" Top="3" Left="2" Right="2" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\buttongroupbutton.png">
+          <SizingMargins Bottom="2" Top="10" Left="2" Right="2" />
+        </Image>
+      </ButtonGroupButton>
+      <ButtonGroupSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\buttongroupseparator.png" />
+        <Size MinSize="Width=1,Height=10" AllowHGrow="False" />
+      </ButtonGroupSeparator>
+      <ButtonGroupSplitButton>
+        <ContentMargins Bottom="3" Top="3" Left="2" Right="2" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\buttongroupsplitbutton.png">
+          <SizingMargins Bottom="2" Top="10" Left="2" Right="2" />
+        </Image>
+      </ButtonGroupSplitButton>
+      <ButtonGroupSplitButton2>
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\buttongroupsplitbutton2.png">
+          <SizingMargins Bottom="2" Top="10" Left="1" Right="2" />
+        </Image>
+        <Size MinSize="Width=11,Height=10" />
+      </ButtonGroupSplitButton2>
+      <ContextTabCategory>
+        <ContentMargins Top="2" Left="9" Right="9" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\contexttabcategory.png">
+          <SizingMargins Bottom="1" Top="9" Left="2" Right="2" />
+        </Image>
+        <Color BackColor="1,2,3" ForeColor="21,66,139" />
+      </ContextTabCategory>
+      <ContextTabCategory2>
+        <ContentMargins Top="2" Left="9" Right="9" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\contexttabcategory2.png">
+          <SizingMargins Bottom="1" Top="9" Left="2" Right="2" />
+        </Image>
+        <Color GradientMode="Vertical" BackColor="Transparent" BackColor2="1,2,3" ForeColor="Black" />
+      </ContextTabCategory2>
+      <ContextTabCategorySeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\contexttabcategoryseparator.png" />
+      </ContextTabCategorySeparator>
+      <ContextTabHeaderPage>
+        <ContentMargins Bottom="1" Top="4" Left="4" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\contexttabheaderpage.png">
+          <SizingMargins Bottom="1" Top="3" Left="5" Right="5" />
+        </Image>
+        <Color BackColor="1,2,3" />
+      </ContextTabHeaderPage>
+      <ContextTabHeaderPageMask>
+        <ContentMargins Bottom="1" Top="4" Left="4" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\contexttabheaderpagemask.png">
+          <SizingMargins Bottom="2" Top="5" Left="5" Right="5" />
+        </Image>
+      </ContextTabHeaderPageMask>
+      <ContextTabPanel>
+        <ContentMargins Bottom="4" Top="4" Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\contexttabpanel.png">
+          <SizingMargins Bottom="7" Top="19" Left="6" Right="6" />
+        </Image>
+        <Color BackColor="1,2,3" />
+      </ContextTabPanel>
+      <ContextTabPanelBorder>
+        <ContentMargins Bottom="4" Top="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\contexttabpanelborder.png">
+          <SizingMargins Bottom="4" Top="1" Left="40" Right="40" />
+        </Image>
+      </ContextTabPanelBorder>
+      <FormApplicationButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\formapplicationbutton.png" />
+        <Offset Kind="Default" Offset="X=3,Y=-2" />
+      </FormApplicationButton>
+      <FormCaption>
+        <ContentMargins Bottom="1" Top="3" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formcaption.png">
+          <SizingMargins Bottom="3" Top="9" Left="6" Right="6" />
+        </Image>
+        <Properties>
+          <FontDelta Value="2" ValueType="System.Int32" />
+          <ForeColor2 Value="105,112,121" ValueType="System.Drawing.Color" />
+          <ForeColorInactive Value="190,190,190" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="62,106,170" />
+      </FormCaption>
+      <FormCaptionMinimized>
+        <ContentMargins Bottom="2" Top="2" Left="5" Right="-5" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formcaptionminimized.png">
+          <SizingMargins Bottom="6" Top="9" Left="6" Right="6" />
+        </Image>
+        <Properties>
+          <FontDelta Value="2" ValueType="System.Int32" />
+          <ForeColor2 Value="105,112,121" ValueType="System.Drawing.Color" />
+          <ForeColorInactive Value="190,190,190" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="62,106,170" />
+      </FormCaptionMinimized>
+      <FormCaptionNoRibbon>
+        <ContentMargins Top="1" Left="1" Right="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formcaptionnoribbon.png">
+          <SizingMargins Bottom="1" Top="5" Left="5" Right="5" />
+        </Image>
+        <Properties>
+          <FontDelta Value="0" ValueType="System.Int32" />
+          <ForeColor2 Value="$ControlText" ValueType="System.Drawing.Color" />
+          <ForeColorInactive Value="172,175,184" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color FontBold="True" ForeColor="93,92,109" />
+      </FormCaptionNoRibbon>
+      <FormFrameBottom>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframebottom.png">
+          <SizingMargins Bottom="1" Top="1" Left="5" Right="5" />
+        </Image>
+        <Size MinSize="Width=2,Height=1" />
+      </FormFrameBottom>
+      <FormFrameBottomWithoutStatusBar>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframebottomwithoutstatusbar.png">
+          <SizingMargins Bottom="1" Top="1" Left="5" Right="5" />
+        </Image>
+        <Size MinSize="Width=2,Height=4" />
+      </FormFrameBottomWithoutStatusBar>
+      <FormFrameLeft>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframeleft.png">
+          <SizingMargins Bottom="6" Top="2" />
+        </Image>
+        <Size MinSize="Width=4,Height=1" />
+      </FormFrameLeft>
+      <FormFrameLeftNoRibbon>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframeleftnoribbon.png">
+          <SizingMargins Bottom="10" Left="5" />
+        </Image>
+        <Size MinSize="Width=5,Height=1" />
+      </FormFrameLeftNoRibbon>
+      <FormFrameLeftTop>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframelefttop.png">
+          <SizingMargins Left="5" />
+        </Image>
+        <Size MinSize="Width=5,Height=1" />
+      </FormFrameLeftTop>
+      <FormFrameRight>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframeright.png">
+          <SizingMargins Bottom="6" Top="2" />
+        </Image>
+        <Size MinSize="Width=4,Height=1" />
+      </FormFrameRight>
+      <FormFrameRightNoRibbon>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframerightnoribbon.png">
+          <SizingMargins Bottom="10" Right="5" />
+        </Image>
+        <Size MinSize="Width=5,Height=1" />
+      </FormFrameRightNoRibbon>
+      <FormFrameRightTop>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\formframerighttop.png">
+          <SizingMargins Right="5" />
+        </Image>
+        <Size MinSize="Width=5,Height=1" />
+      </FormFrameRightTop>
+      <GalleryButton>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\gallerybutton.png">
+          <SizingMargins Bottom="2" Top="9" Left="2" Right="2" />
+        </Image>
+        <Size MinSize="Width=0,Height=0" />
+      </GalleryButton>
+      <GalleryButtonDown>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\gallerybuttondown.png">
+          <SizingMargins Bottom="1" Top="9" Left="2" Right="2" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="ribbon\gallerybuttondown_glyph.png" />
+      </GalleryButtonDown>
+      <GalleryButtonDropDown>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\gallerybuttondropdown.png">
+          <SizingMargins Bottom="3" Top="9" Left="2" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="ribbon\gallerybuttondropdown_glyph.png" />
+      </GalleryButtonDropDown>
+      <GalleryButtonUp>
+        <Image ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\gallerybuttonup.png">
+          <SizingMargins Bottom="1" Top="9" Left="2" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="ribbon\gallerybuttonup_glyph.png" />
+      </GalleryButtonUp>
+      <GalleryHoverImageBackground>
+        <ContentMargins Bottom="6" Top="6" Left="6" Right="6" />
+        <Border Left="196,197,204" Right="196,197,204" Top="196,197,204" Bottom="196,197,204">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="White" />
+      </GalleryHoverImageBackground>
+      <GalleryImageBackground>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Border Left="125,156,191" Right="125,156,191" Top="125,156,191" Bottom="125,156,191">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="White" />
+      </GalleryImageBackground>
+      <GalleryPane>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\gallerypane.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+      </GalleryPane>
+      <KeyTipWindow>
+        <ContentMargins Bottom="2" Top="1" Left="3" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\keytipwindow.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </KeyTipWindow>
+      <LargeButton>
+        <ContentMargins Bottom="1" Top="3" Left="3" Right="3" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\largebutton.png">
+          <SizingMargins Bottom="3" Top="24" Left="3" Right="3" />
+        </Image>
+      </LargeButton>
+      <LargeSplitButton>
+        <ContentMargins Bottom="1" Top="3" Left="3" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\largesplitbutton.png">
+          <SizingMargins Bottom="2" Top="24" Left="3" Right="3" />
+        </Image>
+      </LargeSplitButton>
+      <LargeSplitButton2>
+        <ContentMargins Bottom="1" Top="1" Left="2" Right="2" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\largesplitbutton2.png">
+          <SizingMargins Bottom="3" Top="1" Left="3" Right="3" />
+        </Image>
+      </LargeSplitButton2>
+      <LeftScrollButton>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\leftscrollbutton.png">
+          <SizingMargins Bottom="5" Top="4" Left="6" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="ribbon\leftscrollbutton_glyph.png" />
+      </LeftScrollButton>
+      <MacContextTabHeaderPage>
+        <ContentMargins Bottom="2" Top="3" Left="12" Right="11" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\maccontexttabheaderpage.png">
+          <SizingMargins Bottom="1" Left="2" Right="2" />
+        </Image>
+      </MacContextTabHeaderPage>
+      <MacStyleGalleryButtonDropDown>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\macstylegallerybuttondropdown.png" />
+      </MacStyleGalleryButtonDropDown>
+      <MacTabHeaderBackground>
+        <ContentMargins Left="6" Right="6" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\mactabheaderbackground.png">
+          <SizingMargins Bottom="5" />
+        </Image>
+      </MacTabHeaderBackground>
+      <MacTabHeaderPage>
+        <ContentMargins Bottom="2" Top="3" Left="12" Right="11" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\mactabheaderpage.png">
+          <SizingMargins Bottom="1" Left="2" Right="2" />
+        </Image>
+        <Properties>
+          <ForeColorSelected Value="$ControlText" ValueType="System.Drawing.Color" />
+          <LeftXIndent Value="10" ValueType="System.Int32" />
+          <RightXIndent Value="10" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="73,72,88" />
+      </MacTabHeaderPage>
+      <PageSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\pageseparator.png" />
+      </PageSeparator>
+      <PopupGalleryBackground>
+        <Color BackColor="245,247,249" />
+      </PopupGalleryBackground>
+      <PopupGalleryButton>
+        <ContentMargins Bottom="6" Top="6" Left="5" Right="5" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\popupgallerybutton.png">
+          <SizingMargins Bottom="4" Top="25" Left="3" Right="4" />
+        </Image>
+        <Size MinSize="Width=0,Height=0" />
+      </PopupGalleryButton>
+      <PopupGalleryFilterPanel>
+        <ContentMargins Bottom="5" Top="3" Left="6" Right="5" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\popupgalleryfilterpanel.png">
+          <SizingMargins Bottom="2" Left="3" Right="3" />
+        </Image>
+        <Color FontBold="True" ForeColor="$ControlText" />
+      </PopupGalleryFilterPanel>
+      <PopupGalleryGroupCaption>
+        <ContentMargins Bottom="4" Top="3" Left="7" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\popupgallerygroupcaption.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </PopupGalleryGroupCaption>
+      <PopupGalleryImageBackground>
+        <ContentMargins Bottom="5" Top="5" Left="5" Right="5" />
+        <Border Left="155,186,221" Right="155,186,221" Top="155,186,221" Bottom="155,186,221">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="White" />
+      </PopupGalleryImageBackground>
+      <PopupGalleryItemCaption>
+        <Properties>
+          <FontDelta Value="1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </PopupGalleryItemCaption>
+      <PopupGalleryItemSubCaption>
+        <Properties>
+          <FontDelta Value="-1" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="105,136,171" />
+      </PopupGalleryItemSubCaption>
+      <PopupGalleryMenuSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\popupgallerymenuseparator.png" />
+        <Size MinSize="Width=1,Height=2" />
+      </PopupGalleryMenuSeparator>
+      <PopupGallerySizerGrips>
+        <Image ImageCount="3" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\popupgallerysizergrips.png" />
+        <Size MinSize="Width=5,Height=5" />
+      </PopupGallerySizerGrips>
+      <PopupGallerySizerPanel>
+        <ContentMargins Bottom="5" Top="5" Left="5" Right="1" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\popupgallerysizerpanel.png">
+          <SizingMargins Top="2" Left="2" Right="2" />
+        </Image>
+        <Size MinSize="Width=10,Height=14" />
+      </PopupGallerySizerPanel>
+      <QuickToolbarAboveBackground>
+        <ContentMargins Bottom="2" Top="1" Left="2" Right="10" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbarabovebackground.png">
+          <SizingMargins Right="13" />
+        </Image>
+        <Properties>
+          <CustomizeItemOutsideToolbar Value="True" ValueType="System.Boolean" />
+          <IndentBeforeCustomizeItem Value="12" ValueType="System.Int32" />
+        </Properties>
+      </QuickToolbarAboveBackground>
+      <QuickToolbarAboveBackground2>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbarabovebackground2.png">
+          <SizingMargins Bottom="1" />
+        </Image>
+      </QuickToolbarAboveBackground2>
+      <QuickToolbarBelowBackground>
+        <ContentMargins Bottom="4" Top="3" Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbarbelowbackground.png">
+          <SizingMargins Bottom="6" Top="11" Left="4" Right="4" />
+        </Image>
+      </QuickToolbarBelowBackground>
+      <QuickToolbarButtonGlyph>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="ribbon\quicktoolbarbuttonglyph_glyph.png" />
+        <Size MinSize="Width=12,Height=12" />
+      </QuickToolbarButtonGlyph>
+      <QuickToolbarDropDown>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbardropdown.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+      </QuickToolbarDropDown>
+      <QuickToolbarGlyph>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="ribbon\quicktoolbarglyph_glyph.png" />
+      </QuickToolbarGlyph>
+      <QuickToolbarInCaptionBackground>
+        <ContentMargins Top="2" Left="26" Right="13" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbarincaptionbackground.png">
+          <SizingMargins Left="25" Right="16" />
+        </Image>
+        <Properties>
+          <CustomizeItemOutsideToolbar Value="True" ValueType="System.Boolean" />
+          <IndentBeforeCustomizeItem Value="15" ValueType="System.Int32" />
+        </Properties>
+        <Offset Kind="Default" Offset="X=-21,Y=-1" />
+        <Size MinSize="Width=10,Height=26" />
+      </QuickToolbarInCaptionBackground>
+      <QuickToolbarInCaptionBackground2010>
+        <ContentMargins Top="2" Left="26" Right="13" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\quicktoolbarincaptionbackground2010.png">
+          <SizingMargins Left="25" Right="16" />
+        </Image>
+        <Properties>
+          <CustomizeItemOutsideToolbar Value="True" ValueType="System.Boolean" />
+          <IndentBeforeCustomizeItem Value="15" ValueType="System.Int32" />
+        </Properties>
+        <Offset Kind="Default" Offset="X=0,Y=-1" />
+        <Size MinSize="Width=10,Height=26" />
+      </QuickToolbarInCaptionBackground2010>
+      <RightScrollButton>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\rightscrollbutton.png">
+          <SizingMargins Bottom="5" Top="4" Left="6" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="ribbon\rightscrollbutton_glyph.png" />
+      </RightScrollButton>
+      <Separator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\separator.png">
+          <SizingMargins Bottom="3" Top="3" />
+        </Image>
+        <Size MinSize="Width=1,Height=10" AllowHGrow="False" />
+      </Separator>
+      <SplitButton>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\splitbutton.png">
+          <SizingMargins Bottom="3" Top="9" Left="3" Right="2" />
+        </Image>
+      </SplitButton>
+      <SplitButton2>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\splitbutton2.png">
+          <SizingMargins Bottom="3" Top="9" Left="1" Right="3" />
+        </Image>
+        <Size MinSize="Width=12,Height=10" />
+      </SplitButton2>
+      <StatusBarBackground>
+        <ContentMargins Bottom="1" Top="2" Left="1" Right="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\statusbarbackground.png">
+          <SizingMargins Bottom="1" Top="8" Left="2" Right="1" />
+        </Image>
+        <Color ForeColor="White" />
+      </StatusBarBackground>
+      <StatusBarButton>
+        <ContentMargins Bottom="2" Top="2" Left="3" Right="3" />
+        <Image ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\statusbarbutton.png">
+          <SizingMargins Bottom="2" Top="9" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <ForeColorDisabled Value="87,129,177" ValueType="System.Drawing.Color" />
+        </Properties>
+      </StatusBarButton>
+      <StatusBarFormBackground>
+        <ContentMargins Bottom="1" Top="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\statusbarformbackground.png">
+          <SizingMargins Bottom="5" Top="8" Left="6" Right="6" />
+        </Image>
+      </StatusBarFormBackground>
+      <StatusBarSeparator>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Tile" ImageName="ribbon\statusbarseparator.png" />
+        <Size MinSize="Width=3,Height=1" />
+      </StatusBarSeparator>
+      <TabHeaderBackground>
+        <ContentMargins Top="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabheaderbackground.png">
+          <SizingMargins Bottom="1" Top="1" />
+        </Image>
+      </TabHeaderBackground>
+      <TabHeaderBackground2010>
+        <ContentMargins Top="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabheaderbackground2010.png">
+          <SizingMargins Bottom="1" Top="1" />
+        </Image>
+      </TabHeaderBackground2010>
+      <TabHeaderPage>
+        <ContentMargins Bottom="1" Top="4" Left="4" Right="3" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabheaderpage.png">
+          <SizingMargins Bottom="5" Top="5" Left="9" Right="9" />
+        </Image>
+        <Properties>
+          <LeftXIndent Value="10" ValueType="System.Int32" />
+          <RightXIndent Value="10" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="$ControlText" />
+      </TabHeaderPage>
+      <TabPanel>
+        <ContentMargins Bottom="4" Top="4" Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\tabpanel.png">
+          <SizingMargins Bottom="7" Top="19" Left="6" Right="6" />
+        </Image>
+        <Properties>
+          <TabPanelBottomIndent Value="2" ValueType="System.Int32" />
+          <TabPanelRegionRadius Value="9" ValueType="System.Int32" />
+        </Properties>
+      </TabPanel>
+      <TabPanelGroupBody>
+        <ContentMargins Top="1" Left="2" Right="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabpanelgroupbody.png">
+          <SizingMargins Top="3" Left="4" Right="4" />
+        </Image>
+      </TabPanelGroupBody>
+      <TabPanelGroupButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabpanelgroupbutton.png">
+          <SizingMargins Bottom="2" Top="9" Left="3" Right="3" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="ribbon\tabpanelgroupbutton_glyph.png" />
+        <Size MinSize="Width=12,Height=12" />
+      </TabPanelGroupButton>
+      <TabPanelGroupCaption>
+        <ContentMargins Bottom="2" Top="1" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabpanelgroupcaption.png">
+          <SizingMargins Bottom="4" Top="2" Left="4" Right="4" />
+        </Image>
+        <Properties>
+          <TabPanelGroupRegionRadius Value="4" ValueType="System.Int32" />
+        </Properties>
+        <Color ForeColor="62,106,170" />
+      </TabPanelGroupCaption>
+      <TabPanelGroupMinimized>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\tabpanelgroupminimized.png">
+          <SizingMargins Bottom="5" Top="4" Left="5" Right="5" />
+        </Image>
+      </TabPanelGroupMinimized>
+      <TabPanelGroupMinimizedGlyph>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\tabpanelgroupminimizedglyph.png">
+          <SizingMargins Bottom="4" Top="4" Left="4" Right="4" />
+        </Image>
+      </TabPanelGroupMinimizedGlyph>
+    </Elements>
+  </Skin14>
+  <Skin15 SkinProduct="Printing" SkinName="Golden Thread">
+    <Properties>
+      <PageHorizontalIndent Value="50" ValueType="System.Int32" />
+      <PageVerticalIndent Value="50" ValueType="System.Int32" />
+    </Properties>
+    <Colors>
+      <ForeColor Value="Black" />
+    </Colors>
+    <Elements>
+      <PageBorder>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="printing\pageborder.png">
+          <SizingMargins Bottom="11" Top="11" Left="11" Right="11" />
+        </Image>
+      </PageBorder>
+      <PreviewBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="printing\previewbackground.png">
+          <SizingMargins Top="8" />
+        </Image>
+      </PreviewBackground>
+    </Elements>
+  </Skin15>
+  <Skin16 SkinProduct="RichEdit" SkinName="Golden Thread">
+    <Colors>
+      <RulerDefaultTabColor Value="Black" />
+    </Colors>
+    <Elements>
+      <CornerPanel>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="richedit\cornerpanel.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Color BackColor="White" />
+      </CornerPanel>
+      <HorizontalRulerBackground>
+        <ContentMargins Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="richedit\horizontalrulerbackground.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Size MinSize="Width=24,Height=24" />
+      </HorizontalRulerBackground>
+      <RulerColumnResizer>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulercolumnresizer.png" />
+      </RulerColumnResizer>
+      <RulerIndent>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulerindent.png">
+          <SizingMargins Top="3" />
+        </Image>
+      </RulerIndent>
+      <RulerIndentBottom>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulerindentbottom.png" />
+      </RulerIndentBottom>
+      <RulerLargeTick />
+      <RulerSmallTick />
+      <RulerTab>
+        <Image ImageCount="10" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulertab.png" />
+      </RulerTab>
+      <RulerTabTypeBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="richedit\rulertabtypebackground.png">
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+      </RulerTabTypeBackground>
+      <VerticalRulerBackground>
+        <ContentMargins Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="richedit\verticalrulerbackground.png">
+          <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+        </Image>
+        <Size MinSize="Width=24,Height=24" />
+      </VerticalRulerBackground>
+    </Elements>
+  </Skin16>
+  <Skin17 SkinProduct="Chart" SkinName="Golden Thread">
+    <Colors>
+      <ColorArea3DMarker Value="" />
+      <ColorChartTitle Value="$WindowText" />
+      <ColorConstantLine Value="" />
+      <ColorConstantLineTitle Value="$WindowText" />
+      <ColorLine3DMarker Value="" />
+    </Colors>
+    <Elements>
+      <Area />
+      <Background>
+        <Border Left="157,160,170" Right="157,160,170" Top="157,160,170" Bottom="157,160,170" />
+        <Color BackColor="$Window" />
+      </Background>
+      <Bar>
+        <Color GradientMode="Vertical" BackColor="Black" BackColor2="White" />
+      </Bar>
+      <Bar3D />
+      <Funnel>
+        <Color BackColor="White" BackColor2="Black" />
+      </Funnel>
+      <ImageAnnotation />
+      <Legend>
+        <ContentMargins Bottom="2" Top="2" Left="2" Right="2" />
+        <Color BackColor="$Window" ForeColor="$WindowText" />
+      </Legend>
+      <Marker />
+      <Pie>
+        <Color GradientMode="Vertical" BackColor="Black" BackColor2="White" />
+      </Pie>
+      <Pie3D />
+      <RadarDiagram>
+        <Properties>
+          <ColorAxis Value="" ValueType="System.Drawing.Color" />
+          <ColorAxisLabel Value="$WindowText" ValueType="System.Drawing.Color" />
+          <ColorGridLines Value="" ValueType="System.Drawing.Color" />
+          <ColorMinorGridLines Value="" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="$Window" ForeColor="$WindowText" />
+      </RadarDiagram>
+      <RadarDiagramInterlaced />
+      <ScrollBar>
+        <Color BackColor="$Window" />
+      </ScrollBar>
+      <SeriesLabel2D>
+        <Properties>
+          <ColorSeriesLabelConnector Value="" ValueType="System.Drawing.Color" />
+        </Properties>
+      </SeriesLabel2D>
+      <SeriesLabel3D>
+        <Properties>
+          <ColorSeriesLabelConnector Value="" ValueType="System.Drawing.Color" />
+        </Properties>
+      </SeriesLabel3D>
+      <Strip />
+      <TextAnnotation />
+      <XYDiagram>
+        <Properties>
+          <ColorAxis Value="" ValueType="System.Drawing.Color" />
+          <ColorAxisLabel Value="$WindowText" ValueType="System.Drawing.Color" />
+          <ColorAxisTitle Value="$WindowText" ValueType="System.Drawing.Color" />
+          <ColorGridLines Value="" ValueType="System.Drawing.Color" />
+          <ColorMinorGridLines Value="" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="$Window" ForeColor="$WindowText" />
+      </XYDiagram>
+      <XYDiagram3D>
+        <Properties>
+          <ColorAxis Value="" ValueType="System.Drawing.Color" />
+          <ColorAxisLabel Value="$WindowText" ValueType="System.Drawing.Color" />
+          <ColorGridLines Value="" ValueType="System.Drawing.Color" />
+          <ColorMinorGridLines Value="" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="$Window" ForeColor="$WindowText" />
+      </XYDiagram3D>
+      <XYDiagram3DInterlaced />
+      <XYDiagramInterlaced />
+    </Elements>
+  </Skin17>
+  <Skin18 SkinProduct="Gauges" SkinName="Golden Thread">
+    <Elements>
+      <Background>
+        <Border Left="157,160,170" Right="157,160,170" Top="157,160,170" Bottom="157,160,170">
+          <BorderThin Bottom="1" Top="1" Left="1" Right="1" />
+        </Border>
+        <Color BackColor="$Window" />
+      </Background>
+    </Elements>
+  </Skin18>
+  <Skin19 SkinProduct="Dashboard" SkinName="Golden Thread">
+    <Elements>
+      <DragArea>
+        <ContentMargins Bottom="16" Top="16" Left="24" Right="24" />
+        <Properties>
+          <SectionIndent Value="6" ValueType="System.Int32" />
+        </Properties>
+        <Color BackColor="Transparent" ForeColor="Black" />
+      </DragArea>
+      <DragGroup>
+        <ContentMargins Bottom="4" Top="4" Left="4" Right="4" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="dashboard\draggroup.png">
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <ColorDropIndicator Value="192,214,245" ValueType="System.Drawing.Color" />
+          <ItemIndent Value="2" ValueType="System.Int32" />
+        </Properties>
+      </DragGroup>
+      <DragGroupSelector>
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="dashboard\draggroupselector.png">
+          <SizingMargins Bottom="4" Top="4" Left="4" Right="4" />
+        </Image>
+      </DragGroupSelector>
+      <DragItem>
+        <ContentMargins Bottom="8" Top="8" Left="20" Right="20" />
+        <Image ImageCount="8" Layout="Vertical" Stretch="Stretch" ImageName="dashboard\dragitem.png">
+          <SizingMargins Bottom="5" Top="5" Left="5" Right="5" />
+        </Image>
+        <Color ForeColor="$ControlText" />
+      </DragItem>
+      <DragItemOptionsButton>
+        <Image ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="dashboard\dragitemoptionsbutton.png">
+          <SizingMargins Bottom="4" Top="4" Left="4" Right="4" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="3" Layout="Vertical" ImageName="dashboard\dragitemoptionsbutton_glyph.png" />
+      </DragItemOptionsButton>
+    </Elements>
+  </Skin19>
+</Skins>

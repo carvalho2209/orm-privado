@@ -1,0 +1,6 @@
+﻿<SkinItems version="1.0" application="SkinEditor" assembly="SAP_Kins" class="" extranamespace="">
+  <Item>
+    <ItemName>SAP_Classic</ItemName>
+    <TemplateName>Black</TemplateName>
+  </Item>
+</SkinItems>

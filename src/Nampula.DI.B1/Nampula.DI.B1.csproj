@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EE7A19E-7A1E-462C-8B45-96FDF6389F48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nampula.DI.B1</RootNamespace>
+    <AssemblyName>Nampula.DI.B1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\src\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'net35|AnyCPU'">
+    <OutputPath>bin\net35\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Nampula.DI.B1.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'net35|x86'">
+    <OutputPath>bin\x86\net35\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\x86\Release\Nampula.DI.B1.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Accountings\JournalEntries.cs" />
+    <Compile Include="Accountings\JournalEntryLine.cs" />
+    <Compile Include="AdditionalExpenses\AdditionalExpenses.cs" />
+    <Compile Include="AdditionalExpenses\FreightTypeEnum.cs" />
+    <Compile Include="Administrations\Administration.cs" />
+    <Compile Include="Administrations\AdministrationExtension.cs" />
+    <Compile Include="Administrations\CNAE.cs" />
+    <Compile Include="Administrations\Currency.cs" />
+    <Compile Include="Administrations\CurrencyRate.cs" />
+    <Compile Include="Administrations\NotaFiscalCFOP.cs" />
+    <Compile Include="AgentNames\AgentName.cs" />
+    <Compile Include="Alerts\Alert.cs" />
+    <Compile Include="Alerts\ReceivedAlert.cs" />
+    <Compile Include="Banks\Bank.cs" />
+    <Compile Include="Banks\BankStatement.cs" />
+    <Compile Include="Banks\BankStatementHeader.cs" />
+    <Compile Include="Banks\HouseBankAccount.cs" />
+    <Compile Include="Banks\InternalBankOperation.cs" />
+    <Compile Include="BatchNumbers\BacthNumberStatusType.cs" />
+    <Compile Include="BatchNumbers\BatchNumber.cs" />
+    <Compile Include="BatchNumbers\BatchNumberDirectionType.cs" />
+    <Compile Include="BatchNumbers\BatchNumberMasterData.cs" />
+    <Compile Include="BatchNumbers\BatchNumberBase.cs" />
+    <Compile Include="BatchNumbers\BatchNumberTrans.cs" />
+    <Compile Include="BatchNumbers\BatchNumberDraft.cs" />
+    <Compile Include="BillOfExchanges\BillOfExchange.cs" />
+    <Compile Include="BillOfExchanges\BoeType.cs" />
+    <Compile Include="BusinessPartners\BusinessPartner.cs" />
+    <Compile Include="BusinessPartners\BusinessPartnerAddress.cs" />
+    <Compile Include="BusinessPartners\BusinessPartnerContact.cs" />
+    <Compile Include="BusinessPartners\BusinessPartnerFiscalID.cs" />
+    <Compile Include="BusinessPartners\BusinessPartnerGroup.cs" />
+    <Compile Include="BusinessPartners\BusinessPartnerProperties.cs" />
+    <Compile Include="BusinessPartners\BussinessPartnePaymentMethod.cs" />
+    <Compile Include="BusinessPartners\CompanyCardTypeExtetion.cs" />
+    <Compile Include="BusinessPartners\Enum.cs" />
+    <Compile Include="BusinessPlaces\BusinessPlace.cs" />
+    <Compile Include="BusinessPlaces\BusinessPlaceTaxId.cs" />
+    <Compile Include="CenterCosts\CenterCosts.cs" />
+    <Compile Include="CenterCosts\Dimension.cs" />
+    <Compile Include="ChartOfAccounts\ChartOfAccount.cs" />
+    <Compile Include="CompanyDb\CompanyDb.cs" />
+    <Compile Include="CompanyDb\LicenseServer.cs" />
+    <Compile Include="Counties\County.cs" />
+    <Compile Include="Countries\Country.cs" />
+    <Compile Include="CreditCarts\CreditCards.cs" />
+    <Compile Include="DecimalExtentions\DecimalsExtentions.cs" />
+    <Compile Include="DeliveryTypes\DeliveryTypes.cs" />
+    <Compile Include="Depataments\Departments.cs" />
+    <Compile Include="DinamicInterfaces\DinamicInterface.cs" />
+    <Compile Include="Documents\DocType.cs" />
+    <Compile Include="Documents\Document.cs" />
+    <Compile Include="Documents\DocumentAdditionalExpenses.cs" />
+    <Compile Include="Documents\DocumentDownPaymentsToDraw.cs" />
+    <Compile Include="Documents\DocumentLinesAdditionalExpenses.cs" />
+    <Compile Include="Documents\DocumentModel.cs" />
+    <Compile Include="Documents\DocumentReferenceInformation.cs" />
+    <Compile Include="Documents\DocumentReferenceTypes.cs" />
+    <Compile Include="Documents\LineSerial.cs" />
+    <Compile Include="Documents\DocumentStatus.cs" />
+    <Compile Include="Documents\DocumentTaxAmount.cs" />
+    <Compile Include="Documents\DocumentTaxExtension.cs" />
+    <Compile Include="Documents\DocumentWithholdingTax.cs" />
+    <Compile Include="Documents\InstallmentStatus.cs" />
+    <Compile Include="Documents\Line.cs" />
+    <Compile Include="Documents\Enum.cs" />
+    <Compile Include="Documents\Installment.cs" />
+    <Compile Include="Documents\LineFreightRow.cs" />
+    <Compile Include="Documents\LineSerialAndBatch.cs" />
+    <Compile Include="Documents\NotaFiscalNumbering.cs" />
+    <Compile Include="Documents\NotaFiscalSequence.cs" />
+    <Compile Include="Documents\RelationTypeEnum.cs" />
+    <Compile Include="Itens\AssetClasses.cs" />
+    <Compile Include="Itens\BarCodeMasterData.cs" />
+    <Compile Include="Itens\BrazilFuelIndexer.cs" />
+    <Compile Include="Itens\ItemMaterialGroup.cs" />
+    <Compile Include="Itens\ProductSourceCode.cs" />
+    <Compile Include="Opportunity\OpportunityCompetitors.cs" />
+    <Compile Include="Opportunity\Competitors.cs" />
+    <Compile Include="Opportunity\DifTypeEnum.cs" />
+    <Compile Include="Opportunity\DocTypeEnum.cs" />
+    <Compile Include="Opportunity\Opportunity.cs" />
+    <Compile Include="Opportunity\OpportunityRows.cs" />
+    <Compile Include="Opportunity\OpportunityStage.cs" />
+    <Compile Include="Opportunity\ThreatLevl.cs" />
+    <Compile Include="Opportunity\OpprTypeEnum.cs" />
+    <Compile Include="Opportunity\OpportunityStatusEnum.cs" />
+    <Compile Include="Payments\IncomingPayment.cs" />
+    <Compile Include="Payments\IncomingPaymentCreditVourchers.cs" />
+    <Compile Include="Payments\IncomingPaymentLine.cs" />
+    <Compile Include="SalesTaxCode\SalesTaxAuthorities.cs" />
+    <Compile Include="SalesTaxCode\SalesTaxCodesRows.cs" />
+    <Compile Include="TransactionLog\TransactionInventoryLog.cs" />
+    <Compile Include="TransactionLog\TransactionInventoryLogDetail.cs" />
+    <Compile Include="Documents\WTCategoryEnum.cs" />
+    <Compile Include="Employees\Employee.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Equipaments\CustomerCardEquipament.cs" />
+    <Compile Include="FinancialReportTemplates\FinancialReportTemplate.cs" />
+    <Compile Include="Helpers\B1Helper.cs" />
+    <Compile Include="Holidays\Holiday.cs" />
+    <Compile Include="Holidays\HolidayDate.cs" />
+    <Compile Include="Holidays\WeekDayType.cs" />
+    <Compile Include="Itens\AlternativeItem.cs" />
+    <Compile Include="Itens\Item.cs" />
+    <Compile Include="Itens\ItemClassType.cs" />
+    <Compile Include="Itens\ItemGroup.cs" />
+    <Compile Include="Itens\ItemPrice.cs" />
+    <Compile Include="Itens\ItemProperties.cs" />
+    <Compile Include="Itens\ItemWareHouse.cs" />
+    <Compile Include="Itens\NCMCode.cs" />
+    <Compile Include="Itens\ServiceCodeTable.cs" />
+    <Compile Include="Manufacturer\Manufacturer.cs" />
+    <Compile Include="MeasuresUnits\LengthUnit.cs" />
+    <Compile Include="MeasuresUnits\WeightUnit.cs" />
+    <Compile Include="NotaFiscal\NotaFiscalCFOP.cs" />
+    <Compile Include="NotaFiscal\NotaFiscalCstCode.cs" />
+    <Compile Include="NotaFiscal\NotaFiscalNumbering.cs" />
+    <Compile Include="NotaFiscal\NotaFiscalSequence.cs" />
+    <Compile Include="PaymentMethods\Enum.cs" />
+    <Compile Include="PaymentMethods\PaymentMethod.cs" />
+    <Compile Include="PaymentTerms\PaymentTerm.cs" />
+    <Compile Include="PaymentTerms\PaymentTermsLine.cs" />
+    <Compile Include="PeriodsCategory\PeriodCategory.cs" />
+    <Compile Include="PredefinedTexts\PredefinedText.cs" />
+    <Compile Include="PriceLists\PriceList.cs" />
+    <Compile Include="ProductionOrders\Enum.cs" />
+    <Compile Include="ProductionOrders\ProductionOrder.cs" />
+    <Compile Include="ProductionOrders\ProductionOrderLine.cs" />
+    <Compile Include="ProductTrees\Enum.cs" />
+    <Compile Include="ProductTrees\ProductTree.cs" />
+    <Compile Include="ProductTrees\ProductTreeLine.cs" />
+    <Compile Include="ProfitCenters\ProfitCenter.cs" />
+    <Compile Include="Projects\Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesPersons\SalesPerson.cs" />
+    <Compile Include="SalesTaxCode\TaxAuthoritiesType.cs" />
+    <Compile Include="SalesTaxCode\TaxCategory.cs" />
+    <Compile Include="SalesTaxCode\TaxCode.cs" />
+    <Compile Include="SalesTaxCode\TaxPerameterAttribute.cs" />
+    <Compile Include="SalesTaxCode\TcdType.cs" />
+    <Compile Include="SalesTaxCode\TaxCodeDetermination.cs" />
+    <Compile Include="SalesTaxCode\TcdTypeEnum.cs" />
+    <Compile Include="SpecialPrices\SpecialPrice.cs" />
+    <Compile Include="SpecialPrices\SpecialPriceDataArea.cs" />
+    <Compile Include="SpecialPrices\SpecialPriceQuantityArea.cs" />
+    <Compile Include="States\State.cs" />
+    <Compile Include="StockTransfers\StockTransfer.cs" />
+    <Compile Include="StockTransfers\StockTransferLine.cs" />
+    <Compile Include="Territories\Territory.cs" />
+    <Compile Include="TransactionLog\TransactionLogService.cs" />
+    <Compile Include="Usages\Usage.cs" />
+    <Compile Include="UserCaches\UserCache.cs" />
+    <Compile Include="UserPermissions\AuthorizationGroup.cs" />
+    <Compile Include="UserPermissions\GroupAuthorization.cs" />
+    <Compile Include="UserPermissions\GroupUserAssociation.cs" />
+    <Compile Include="UserPermissions\OptionsType.cs" />
+    <Compile Include="UserPermissions\PermissionType.cs" />
+    <Compile Include="UserPermissions\UserAuthorization.cs" />
+    <Compile Include="UserPermissions\UserAutorizationTree.cs" />
+    <Compile Include="Users\User.cs" />
+    <Compile Include="UserTables\Common.cs" />
+    <Compile Include="UserTables\FieldType.cs" />
+    <Compile Include="UserTables\FieldTypeEnum.cs" />
+    <Compile Include="UserTables\TableNoObject.cs" />
+    <Compile Include="UserTables\UserField.cs" />
+    <Compile Include="UserTables\UserFieldValuesDefinition.cs" />
+    <Compile Include="Version\SboVersion.cs" />
+    <Compile Include="WarehousesJournal\WarehouseJournal.cs" />
+    <Compile Include="Warehouses\BinLocation.cs" />
+    <Compile Include="Warehouses\Warehouse.cs" />
+    <Compile Include="WithholdingTaxes\WithholdingTax.cs" />
+    <Compile Include="WithholdingTaxes\WithholdingTaxType.cs" />
+    <Compile Include="WithholdingTaxes\WtTypeEnum.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nampula.DI\Nampula.DI.csproj">
+      <Project>{930378E2-653E-4BEF-8F84-A92652643588}</Project>
+      <Name>Nampula.DI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nampula.Framework\Nampula.Framework.csproj">
+      <Project>{8B416D54-73A7-451F-A17C-F4FB03851B4C}</Project>
+      <Name>Nampula.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

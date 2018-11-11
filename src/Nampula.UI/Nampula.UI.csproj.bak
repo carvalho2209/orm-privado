@@ -1,0 +1,1318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0E2ED4E-C6E2-4E23-928E-5FA494B3AA5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nampula.UI</RootNamespace>
+    <AssemblyName>Nampula.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\Administrador.DEVELOPER\Dados de aplicativos\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <ReferencePath>C:\Arquivos de programas\Microsoft SDKs\Windows\v6.0A\bin</ReferencePath>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\src\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>bin\x86\Debug\Nampula.UI.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'net35|AnyCPU'">
+    <OutputPath>bin\net35\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Nampula.UI.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'net35|x86'">
+    <OutputPath>bin\x86\net35\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\x86\Release\Nampula.UI.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced">
+      <HintPath>..\packages\DotNetZip.Reduced.1.9.1.8\lib\net20\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SapDesign">
+      <HintPath>..\..\doc\Skyn\SapDesign\SapDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Application\Application.cs" />
+    <Compile Include="Application\ApplicationExtention.cs" />
+    <Compile Include="DataServeAccess\Exceptions\CreateDataUserException.cs" />
+    <Compile Include="DataServeAccess\SqlUserProvider.cs" />
+    <Compile Include="DataServeAccess\UserRepository.cs" />
+    <Compile Include="DataServeAccess\UserFieldsDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataServeAccess\UserFieldsDataForm.Designer.cs">
+      <DependentUpon>UserFieldsDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataServeAccess\UserFieldsData.cs" />
+    <Compile Include="DataServeAccess\PasswordEncrypter.cs" />
+    <Compile Include="DinamicInterface\ThemeSkinManager.cs" />
+    <Compile Include="Helpers\Extentions\UtilityUiExtentions.cs" />
+    <Compile Include="Application\WinAPI.cs" />
+    <Compile Include="DinamicInterface\DinamicInterfaceService.cs" />
+    <Compile Include="DinamicInterface\frmSettingDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinamicInterface\frmSettingDescription.designer.cs">
+      <DependentUpon>frmSettingDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinamicInterface\KeyBoard.cs" />
+    <Compile Include="DinamicInterface\UserControlProperty.cs" />
+    <Compile Include="FormCustom.cs" />
+    <Compile Include="FormSystemHelper.cs" />
+    <Compile Include="FromSystemEventAttribute.cs" />
+    <Compile Include="Helpers\ChooseFromListEventArgs.cs" />
+    <Compile Include="Helpers\ChooseFromListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\ChooseFromListForm.Designer.cs">
+      <DependentUpon>ChooseFromListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Extentions\BindChangedValueEventArgs.cs" />
+    <Compile Include="Helpers\Extentions\FormBindExtention.cs" />
+    <Compile Include="Helpers\FormatConditionChoose.cs" />
+    <Compile Include="Helpers\GridViewCheckBox.cs" />
+    <Compile Include="Helpers\GridViewEditableEventArgs.cs" />
+    <Compile Include="Helpers\IChooseFromListFormBase.cs">
+    </Compile>
+    <Compile Include="Helpers\ChooseFromListHelper.cs" />
+    <Compile Include="Helpers\DICompany.cs" />
+    <Compile Include="Application\ApplicationEventArgs.cs" />
+    <Compile Include="Application\ItemEventArgs.cs" />
+    <Compile Include="Application\MenuEventArgs.cs" />
+    <Compile Include="Helpers\Extentions\ComboBoxExtention.cs" />
+    <Compile Include="Helpers\Extentions\GridViewExtension.cs" />
+    <Compile Include="Application\Enum.cs" />
+    <Compile Include="Application\IApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\Extentions\TreeGridViewExtention.cs" />
+    <Compile Include="Helpers\GridViewEditable.cs" />
+    <Compile Include="Helpers\LogUI\ChangeLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\LogUI\ChangeLogForm.Designer.cs">
+      <DependentUpon>ChangeLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LogUI\DifferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\LogUI\DifferencesForm.Designer.cs">
+      <DependentUpon>DifferencesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\MessageExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\MessageExceptionForm.designer.cs">
+      <DependentUpon>MessageExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\WaitingStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\WaitingStatusForm.designer.cs">
+      <DependentUpon>WaitingStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\WaitingStatusHelper.cs" />
+    <Compile Include="Permissions\Permission.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormSystem.cs" />
+    <Compile Include="FormLinkedButtonHelper.cs" />
+    <Compile Include="Application\ApplicationSAP.cs" />
+    <Compile Include="Application\EventListener.cs" />
+    <Compile Include="Application\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application\ItemEvent.cs" />
+    <Compile Include="Application\MenuEvent.cs" />
+    <Compile Include="UI\ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditTextButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditTextCalc.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form.Designer.cs">
+      <DependentUpon>Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormatHelper.cs" />
+    <Compile Include="UI\FormChooseFromList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormChooseFromList.Designer.cs">
+      <DependentUpon>FormChooseFromList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MessageBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MessageBoxForm.Designer.cs">
+      <DependentUpon>MessageBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ChooseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ComboBoxSimple.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\GridValidValuesColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\TreeGridValidValuesColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ValidValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\ValidValues.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\ValidValuesCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\ContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\DataGridTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditDateTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditMemo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ImageBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LinkedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\LinkedButtonEventArgs.cs" />
+    <Compile Include="UI\MarqueeProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\NavigationBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\EditText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\OptionBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SpliContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\StaticText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\VisualStyles.cs" />
+    <Compile Include="UI\ZoomTrackBall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Application\MenuItem.cs" />
+    <Compile Include="Application\ApplicationWinForm.cs" />
+    <Compile Include="Application\frmSelectCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application\frmSelectCompany.Designer.cs">
+      <DependentUpon>frmSelectCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\frmServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application\frmServer.Designer.cs">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Company.cs" />
+    <Compile Include="Application\Desktop.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataServeAccess\UserFieldsDataForm.resx">
+      <DependentUpon>UserFieldsDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinamicInterface\frmSettingDescription.resx">
+      <DependentUpon>frmSettingDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\ChooseFromListForm.resx">
+      <DependentUpon>ChooseFromListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\LogUI\ChangeLogForm.resx">
+      <DependentUpon>ChangeLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\LogUI\DifferencesForm.resx">
+      <DependentUpon>DifferencesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\MessageExceptionForm.resx">
+      <DependentUpon>MessageExceptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\WaitingStatusForm.resx">
+      <DependentUpon>WaitingStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form.resx">
+      <DependentUpon>Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormChooseFromList.resx">
+      <DependentUpon>FormChooseFromList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MessageBoxForm.resx">
+      <DependentUpon>MessageBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ComboBoxSimple.resx">
+      <DependentUpon>ComboBoxSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application\frmSelectCompany.resx">
+      <DependentUpon>frmSelectCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application\frmServer.resx">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Administration.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdministrationFocus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banking.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankingFocus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brwb.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brwbP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnChooseFromTree.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnChooseFromTreePressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BusinessPartners.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Ambig_Dis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Ambig_Enabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Selected_Dis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Selected_Enabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Unselected_Dis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox_Unselected_Enabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chk_Sel_Enabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choose_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choose_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChooseFromLstBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChooseFromLstBtnPresses.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseBut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseButFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComboArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComboArrowFocused.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDownDis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDownF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDownSel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDownSelDis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSDownSelF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUpDis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUpF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUpSel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUpSelDis.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSUpSelF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DocNumber.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Financials.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderClose.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderCloseFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpenFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folVerde.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gears.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gears1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridADown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridAUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridCINDheader.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridheader.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridheaderbord.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridheaderborder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridheaderbottomborded.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDubleArrowDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDubleArrowUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoScrollBarChanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoThumbMiddle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoThumbRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoThumpLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HR.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HScrollbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HThumb.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HThumbBotton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HThumbMiddle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HThumpTop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageButtonBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageButtonBackPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InformationBifpict.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InventoryFocus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jama-pic1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jama-pic11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LastLevel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LastLevelFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftCor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevCloseVerde.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevopenVerde.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LinkBtn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LinkBtnPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginLogoSide.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginLogoSide1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginPict.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginPict1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginPict2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAinMenuTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaxBut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaxButFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuGroupMOver.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuGroupSel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuItem.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageError.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageInfo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageQuestion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinBut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinButFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModuleHighLight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModuleOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModuleS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MRP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSBackSel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSBackUnsel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSLockScreemSel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSLockScreemUnsel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsLockUico.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MsLunchUico.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSLunchUnsel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSDownPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSIco.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSLeftPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSRightPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NSUpPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumberSelector.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obtnCH.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obtnDIS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obtnDISCH.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obtnUNCH.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODoubleArrowLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODoubleArrowRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OTLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OTmiddle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OTMiddleB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OTRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Production.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt-BR.zip" />
+    <None Include="Resources\Purchasing.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reports.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestoreBut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestoreButFo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightCor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rowheadear.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalesFocus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalesOportunities.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAPLoginLogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAPLoginLogo1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAPlogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollDownPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollUpPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEDownFocused.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEDownPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selAfterUnsel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selFirstTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selLastTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selMiddleTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selTabSec.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Service.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEUpFocused.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEUpPressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_ADD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_ADD_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_BASEDOC.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_BASEDOC_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_CALENDAR.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_CALENDAR_CHECKED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_context.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_EMAIL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_EMAIL_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_EXCEL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_EXCEL_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FAX.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FAX_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FILTERTABLE.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FILTERTABLE_CHECKED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FILTERTABLE_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FIND.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FIND_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FIRST.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FIRST_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FORMSETTINGS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_FORMSETTINGS_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_GROSSPROFIT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_GROSSPROFIT_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_HELP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_HELP_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LAST.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LAST_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LOCK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LOCK_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LUNCH.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_LUNCH_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_MESSAGES.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_MESSAGES_CHECKED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_NEXT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_NEXT_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PAYMENT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PAYMENT_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PREVIOUS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PREVIOUS_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINT_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINTLAYOUT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINTLAYOUT_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINTPREVIEW.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_PRINTPREVIEW_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_QUERRYMANAGER.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_QUERRYMANAGER_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_SMS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_SMS_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_SORTTABLE.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_SORTTABLE_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_TARGETDOC.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_TARGETDOC_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_TRANSACTION.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_TRANSACTION_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_VWCALCULATION.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_VWCALCULATION_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_WORD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_WORD_DISABLED.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleCorn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleIconMF.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ttitlu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselFirstSATab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselFirstTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselLastTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselMiddleSATab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselMiddleSBTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselTab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselTab_first.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselTabAfterUnsel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VRScrollBar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spash do SAP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TtitluD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseButD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaxButD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinButD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleCornD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleIconD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTMLPageHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nampula.BackgroundTask\Nampula.BackgroundTask.csproj">
+      <Project>{B3246EFF-F3BD-4294-84E5-3BA57AC70041}</Project>
+      <Name>Nampula.BackgroundTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nampula.DI.B1\Nampula.DI.B1.csproj">
+      <Project>{9EE7A19E-7A1E-462C-8B45-96FDF6389F48}</Project>
+      <Name>Nampula.DI.B1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nampula.DI\Nampula.DI.csproj">
+      <Project>{930378E2-653E-4BEF-8F84-A92652643588}</Project>
+      <Name>Nampula.DI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nampula.Framework\Nampula.Framework.csproj">
+      <Project>{8B416D54-73A7-451F-A17C-F4FB03851B4C}</Project>
+      <Name>Nampula.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_ico_exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_ico_information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message_ico_question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SAPbobsCOM">
+      <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30088}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SAPbouiCOM">
+      <Guid>{6048236A-956D-498D-A6F1-9C81C13AB6E8}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

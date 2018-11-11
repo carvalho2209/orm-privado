@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="Build;Package">
+
+  <PropertyGroup>
+    <BaseDir>.</BaseDir>
+    <MSBuildExtensions>$(BaseDir)\lib\msbuild\msbuild.community.tasks.dll</MSBuildExtensions>
+
+    <ProjectName>Nampula</ProjectName>
+    <Major>2</Major>
+    <Minor>3</Minor>
+    <Build>0</Build>
+    <Configuration>Release</Configuration>
+    <Platform>x86</Platform>
+    <BinPath>bin\x86\Release</BinPath>
+    <PackageDir>E:\LibraryPack</PackageDir>
+  </PropertyGroup>
+
+  <UsingTask AssemblyFile="$(MSBuildExtensions)" TaskName="MSBuild.Community.Tasks.AssemblyInfo" />
+  <UsingTask AssemblyFile="$(MSBuildExtensions)" TaskName="MSBuild.Community.Tasks.XmlUpdate" />
+
+  <Target Name="Clean" >
+    <MSBuild Projects="$(ProjectName).sln" Targets="Clean" Properties="Configuration=$(Configuration); Platform=$(Platform);"/>
+    <Delete Files="@(FileBin)" />
+  </Target>
+
+  <Target Name="CreateVersionFile"  DependsOnTargets="Clean" >
+    <AssemblyInfo CodeLanguage="CS"
+                OutputFile="$(MSBuildProjectDirectory)\SolutionInfo.cs"
+                AssemblyCompany="Ramo"
+                AssemblyProduct="Nampula"
+                AssemblyCopyright="Copyright (c) Ramo Ltda 2011"
+                ComVisible="false"
+                AssemblyVersion="$(Major).$(Minor).$(Build)"
+                AssemblyFileVersion="$(Major).$(Minor).$(Build)" />
+  </Target>
+
+  <Target Name="Build" DependsOnTargets="CreateVersionFile">
+    <MSBuild Projects="$(ProjectName).sln" Targets="Build" Properties="Configuration=$(Configuration); Platform=$(Platform);"/>
+  </Target>
+  
+  <Target Name="Package">
+    
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.Framework\" Command="nuget update packages.config" />
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.Framework\" Command="nuget pack -o $(PackageDir) -build" />
+    
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.DI\" Command="nuget update packages.config" />
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.DI\" Command="nuget pack -o $(PackageDir) -build" />
+    
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.DI.B1\" Command="nuget update packages.config" />
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.DI.B1\" Command="nuget pack -o $(PackageDir) -build" />   
+    
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.BackgroundTask\" Command="nuget update packages.config" />
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.BackgroundTask\" Command="nuget pack -o $(PackageDir) -build" />
+
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.UI\" Command="nuget update packages.config" />
+    <Exec WorkingDirectory="$(BaseDir)\Nampula.UI\" Command="nuget pack -o $(PackageDir) -build" />
+    
+  </Target>
+
+</Project>
